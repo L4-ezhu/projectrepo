@@ -1,0 +1,1000 @@
+  126  ls
+  127  ncbi-acc-download -h
+  128  ncbi-acc-download -F genbank NW_018406858.1
+  129  ncbi-acc-download
+  130  ncbi-acc-download -h genbank NW_018406858.1
+  131  cd ~/labs/lab2-L4-ezhu
+  132  ls
+  133  ncbi-acc-download -F genbank NW_018406858.1
+  134  ls
+  135  ncbi-acc-download -F genbank NW_018406858.1
+  136  ls
+  137  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  138  git add .
+  139  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  140  git pull --no-edit
+  141  gitpush
+  142  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  143  git add .
+  144  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  145  git add 
+  146  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  147  git add .
+  148  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  149  git pull --no-edit
+  150  ncbi-acc-download -h
+  151  ncbi-acc-download -F genbank NW_018406858.1
+  152  ls
+  153  less NW_018406858.1.gbk
+  154  >name of sequence
+  155  ACTGACTGACTGACTGACTG
+  156  >name of sequence ACTGACTGACTGACTGACTG
+  157  ncbi-acc-download -F fasta NW_018406858.1
+  158  ncbi-acc-download -F gff3 NW_018406858.1
+  159   filterGFF LOC110453019 NW_018406858.1.gff
+  160  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  161  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  162  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff 
+  163  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gf
+  164  ncbi-acc-download -F gff3 NW_018406858.1
+  165  ncbi-acc-download -F gff3 NW_018406858.1 
+  166  filterGFF LOC110453019 NW_018406858.1.gff
+  167  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  168  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  169  gt stat -genelengthdistri
+  170  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff 
+  171  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  172  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  173  grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  174  bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  175  less LOC110453019.X1.cds.fa
+  176  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  177  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  178  less
+  179  ls
+  180  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa 
+  181  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  182  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  183  less
+  184  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  185  less LOC110453019.X1.cds.fa
+  186  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  187  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  188  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  189  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  190  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  191  ncbi-acc-download -h
+  192  ncbi-acc-download -F genbank NW_018406858.1
+  193  ls
+  194  ncbi-acc-download -F genbank NW_018406858.1
+  195   ls
+  196  ncbi-acc-download -F NW_018406858.1
+  197  pip install ncbi-acc-download
+  198   ncbi-acc-download -F
+  199   ncbi-acc-download -F genbank NW_081406858.1
+  200  NW_018406858.1
+  201  ncbi-acc-download -F genbank NW_018406858.1 
+  202  ncbi-acc-download -F genbank NW_018406858.1
+  203  ls
+  204  ncbi-accdownload -F https://www.ncbi.nlm.nih.gov/nuccore/NW_018406858.1
+  205  ncbi-acc-download --format fasta NW_018406858.1
+  206  ls
+  207  lessNW_018406858.1
+  208  less NW_018406858.1
+  209  less NW_018406858.1.gbk
+  210  >name of sequence
+  211  >name of sequence ACTGACTGACTGACTGACTG
+  212  >name of sequence
+  213  ACTGACTGACTGACTGACTG
+  214  >name of sequence
+  215  ACTGACTGACTGACTGACTG
+  216  >name of sequence
+  217  ACTGACTGACTGACTGACTG
+  218  name of sequence ACTGACTAGACTGACTGACTG
+  219  ncbi-acc-download -F fasta NW_018406858.1
+  220  ncbi-acc-download -F gff3 NW_018406858.1
+  221  filterGFF LOC110453019 NW_018406858.1.gff
+  222  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  223  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  224  gt stat -genelengthdistri -exonlengthdistri 
+  225  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  226  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  227  less gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff
+  228  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  229  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  230  grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  231  bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  232  less LOC110453019.X1.cds.fa
+  233  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  234  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  235  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  236  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa 
+  237  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  238  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  239  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  240  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  241  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  242  ncbi-acc-download -F gff3 NW_018406858.1
+  243  ls
+  244  filterGFF LOC110453019 NW_018406858.1.gff
+  245  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  246  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  247  less gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  248  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  249  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  250  less gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  251  grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  252  bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  253  less LOC110453019.X1.cds.fa
+  254  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  255  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  256  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  257  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  258  lesstranseq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  259  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  260  lesstranseq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  261  less 
+  262  less LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  263  less LOC110453019.X1.cds.union.fa 
+  264  less LOC110453019.X1.aa.fa
+  265  ls
+  266  less LOC110453019.X1.cds.fa
+  267  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  268  git add .
+  269  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  270  git add .
+  271  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  272  git add .
+  273  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  274  lab2.commandhistory.txt
+  275  history > lab2.commandhistory.txt
+  276  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  277  git add .
+  278  history > lab2.commandhistory.txt
+  279  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  280  git add .
+  281  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  282  git add .
+  283  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  284  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  285  chmod 400 /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  286  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  287  TOKEN: 
+  288  /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  289  chmod /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  290  chmod 400 /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  291  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  292  /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  293  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  294  history > lab2.commandhistory.txt
+  295  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  296  git add .
+  297  ls
+  298  echo 'Hello World'
+  299  cowsay 'Bio 312 is super fun!'
+  300  cd
+  301  pwd
+  302  ls
+  303  cd data
+  304  ls
+  305  cat animal.txt
+  306  cd
+  307  ls -l
+  308  cd ~/labs/lab2-L4-ezhu
+  309  ncbi-acc-download -h
+  310  ncbi-acc-download -F genbank NW_018406858.1
+  311  ls
+  312  history > lab2.commandhistory.tx
+  313  history > lab2.commandhistory.txt
+  314  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  315  git add .
+  316  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  317  git pull --no-edit
+  318  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  319  git add .
+  320  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  321  git push
+  322  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  323  git add .
+  324  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  325  git add .
+  326  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  327  L4-ezhu
+  328  git pull --no-edit
+  329  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  330  git add .
+  331  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  332  git pull --no-edit
+  333  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  334  git add .
+  335  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  336  git pull --no-edit
+  337  ls
+  338  $find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  339  git add .
+  340  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  341  git pull --no-edit
+  342  git push
+  343  ls
+  344  git push
+  345  git pull
+  346  ls
+  347  git push
+  348  history > lab2.commandhistory.txt
+  349  gitpush
+  350  git push 
+  351  git pull
+  352  git config pull.rebase false  # merge
+  353  git push
+  354  git push --help
+  355  git push --all
+  356  git pull --all
+  357  gir push
+  358  git push
+  359  ls
+  360  git push
+  361  ls
+  362  cd ~/labs
+  363  git clone https://github.com/Bio312/lab3-L4-ezhu
+  364  cd lab3-ezhu
+  365  cd ~/labs
+  366  git clone https://github.com/Bio312/labX-L4-ezhu
+  367  ccd ~/labs
+  368  cd ~/labs
+  369  git clone https://github.com/Bio312/lab3-L4-ezhu
+  370  cd lab3-L4-ezhu
+  371  cd ~/labs/lab3-L4-ezhu
+  372  gunzip proteomes/*.gz
+  373  cat  proteomes/* > allprotein.fas
+  374  makeblastdb -in allprotein.fas -dbtype prot
+  375  mkdir /home/ec2-user/labs/lab3-L4-ezhu/gqr
+  376  cd /home/ec2-user/labs/lab3-L4-ezhu/gqr
+  377  pwd
+  378  ncbi-acc-download -F fasta -m protein XP_021370576.1
+  379  ncbi-acc-download -F fasta -m protein XP_021373098.1
+  380  blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+  381  less blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+  382  less -s blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+  383  less -s
+  384  less -S blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+  385  ls
+  386  less -S gqr.blastp.detail.out
+  387  ls
+  388  ls gqr.blastp.typical.out
+  389  less gqr.blastp.typical.out
+  390  blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out gqr.blastp.detail.out
+  391  ls
+  392  less -S gqr.blastp.detail.out
+  393  grep -c Hsapiens gqr.blastp.detail.out
+  394  awk '{if ($6< 1e-35 )print $1 }' gqr.blastp.detail.out > gqr.blastp.detail.filtered.out
+  395  ls
+  396  wc -l gqr.blastp.detail.filtered.out
+  397  grep -o -E "^[A-Z][a-z]+\." gqr.blastp.detail.filtered.out  | sort | uniq -c
+  398  ls
+  399  ncbi-acc-download -F fasta -m protein XP_021370576.1
+  400  mkdir /home/ec2-user/labs/lab3-L4-ezhu/psma
+  401  pwd
+  402  Cd /home/ec2-user/labs/lab3-L4-ezhu/psma
+  403  cd /home/ec2-user/labs/lab3-L4-ezhu/psma 
+  404  pwd
+  405  ncbi-acc-download -F fasta -m protein XP_021370576.1
+  406  blastp -db ../allprotein.fas -query XP_021370576.1.fa -outfmt 0 -max_hsps 1 -out psma.blastp.typical.out
+  407  less psma.blastp.typical.out
+  408  blastp -db ../allprotein.fas -query XP_021370576.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out psma.blastp.detail.out
+  409  less -S psma.blastp.detail.out
+  410  grep -c Hsapiens psma.blastp.detail.out
+  411  awk '{if ($6< 1e-35 )print $1 }' psma.blastp.detail.out > psma.blastp.detail.filtered.out
+  412  wc -l psma.blastp.detail.filtered.out
+  413  ls
+  414  grep -o -E "^[A-Z][a-z]+\." psma.blastp.detail.filtered.out  | sort | uniq -c
+  415  ls
+  416  history > lab3.commandhistory.txt
+  417  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  418  git add .
+  419  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  420  git pull --no-edit
+  421  git push
+  422  cd ~/labs/lab3-L4-ezhu
+  423  cd /home/ec2-user/labs/lab3-L4-ezhu/gqr
+  424  ls
+  425  history > lab3.commandhistory.txt
+  426  cd ~/labs/lab3-L4-ezhu
+  427  ls
+  428  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  429  git add .
+  430  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  431  git pull --no-edit
+  432  git push
+  433  ls XP_021373098.1.fa
+  434  ls XP_021373098.1
+  435  less XP_021373098.1.fa
+  436  less XP_021373098.1
+  437  ls XP_021373098.1.fa
+  438  ncbi-acc-download -F fasta -m protein XP_021373098.1 
+  439  ls XP_021373098.1 
+  440  ls
+  441  ls XP_021373098.1.fa
+  442  -e XP_021373098.1.fa
+  443  ls XP_021373098.1
+  444  ls
+  445  allprotein.fas
+  446  ls -S allprotein.fas
+  447  wc -l gqr.blastp.detail.filtered.out
+  448  cd /home/ec2-user/labs/lab3-L4-ezhu/gqr
+  449  wc -l gqr.blastp.detail.filtered.out
+  450  awk '{if ($6< 1e-35 )print $1 }' gqr.blastp.detail.out > gqr.blastp.detail.filtered.out
+  451  wc -l gqr.blastp.detail.filtered.out
+  452  grep -o -E "^[A-Z][a-z]+\." gqr.blastp.detail.filtered.out  | sort | uniq -c
+  453  ls
+  454  conda install -y -n base -c conda-forge aha
+  455  sudo yum install -y a2ps
+  456  pip install buddysuite
+  457  echo 'export MYGIT="L4-ezhu"' >>~/.bash_profile
+  458  echo 'export MYGIT="myusername"' >>~/.bash_profile
+  459  echo 'export MYGIT="L4-ezhu"' >>~/.bash_profile
+  460  source ~/.bash_profile
+  461  echo $MYGIT
+  462  screen -dRR
+  463  cd ~/labs
+  464  git clone https://github.com/Bio312/lab4-$MYGIT
+  465  cd lab4-$MYGIT
+  466  nano ~/labs/lab4-$MYGIT/toy.fas 
+  467  la
+  468  ls
+  469  nano ~/labs/lab4-$MYGIT/toy.fas 
+  470  muscle -in ~/labs/lab4-$MYGIT/toy.fas -out ~/labs/lab4-$MYGIT/toy.al.fas
+  471  alv -kli  ~/labs/lab4-$MYGIT/toy.al.fas 
+  472  t_coffee -other_pg seq_reformat -in ~/labs/lab4-$MYGIT/toy.al.fas -output sim
+  473  alignbuddy -pi ~/labs/lab4-$MYGIT/toy.al.fas
+  474  alignbuddy -pi ~/labs/lab4-$MYGIT/toy.al.fas | awk ' (NR>2)  { for (i=2;i<=NF  ;i++){ sum+=$i;num++} }
+  475       END{ print(100*sum/num) } '
+  476  $ls
+  477  ls
+  478  pwd
+  479  cd lab3-L4-ezhu
+  480  cd ~/labs
+  481  ls
+  482  cd lab3-l4-ezhu
+  483  cd lab3-L4-ezhu
+  484  ~/labs/lab4-L4-ezhu
+  485  cd lab4-L4-ezhu
+  486  cd ~labs
+  487  cd ~/labs
+  488  ls
+  489  cd lab4-L4-ezhu
+  490  mkdir ~/labs/lab4-$MYGIT/gqr
+  491  cd ~/labs/lab4-$MYGIT/gqr
+  492  seqkit grep --pattern-file ~/labs/lab3-$MYGIT/gqr/gqr.blastp.detail.filtered.out ~/labs/lab3-$MYGIT/allprotein.fas > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas
+  493  ls
+  494  less gqr.homologs.fas
+  495  ls
+  496  less gqr.homologs.fas
+  497  muscle -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas -out ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas
+  498  alv -kli --majority ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  499  alv -ki -w 100 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html
+  500  alv -kli --majority ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  501  alv -ki -w 100 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html
+  502  a2ps -r --columns=1 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html -o ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps
+  503  ps2pdf ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.pdf
+  504  1
+  505  ls
+  506  alv -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  507  alv -ki -w 100 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html
+  508  a2ps -r --columns=1 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html -o ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps
+  509  ps2pdf ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.pdf
+  510  ls
+  511  alignbuddy  -al  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas
+  512  alignbuddy -trm all  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | alignbuddy  -al
+  513  alignbuddy -dinv 'ambig' ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | alignbuddy  -al
+  514  t_coffee -other_pg seq_reformat -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas -output sim
+  515  $seqkit grep --pattern-file ~/labs/lab3-$MYGIT/gqr/gqr.blastp.detail.filtered.out ~/labs/lab3-$MYGIT/allprotein.fas > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas
+  516  ls
+  517  >
+  518  muscle -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas -out ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas
+  519  >
+  520  muscle -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas -out ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas
+  521  cd/ gqr
+  522  cd ~/labs
+  523  cd ~/labs/lab4-$MYGIT/gqr
+  524  ls
+  525  seqkit grep --pattern-file ~/labs/lab3-$MYGIT/gqr/gqr.blastp.detail.filtered.out ~/labs/lab3-$MYGIT/allprotein.fas > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas
+  526  muscle -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas -out ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas
+  527  t_coffee -other_pg seq_reformat -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas -output sim
+  528  alignbuddy -pi ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | awk ' (NR>2)  { for (i=2;i<=NF  ;i++){ sum+=$i;num++} }
+  529       END{ print(100*sum/num) } '
+  530  history > lab4.commandhistory.txt
+  531  cd ~/labs/lab4-$MYGIT
+  532  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  533  git add .
+  534  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  535  git pull --no-edit
+  536  git push
+  537  muscle -in ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas -out ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas
+  538  alv -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  539  alv -kli --majority ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  540  alv -ki -w 100 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html
+  541  a2ps -r --columns=1 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html -o ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps
+  542  ps2pdf ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.pdf
+  543  git push
+  544  cd ~/labs/lab4-$MYGIT
+  545  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  546  git add .
+  547  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  548  git pull --no-edit
+  549  git push
+  550  ls
+  551  echo a | grep --color=always . >gqr
+  552  alv -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  553  alv -h
+  554  alv -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  555  alv -ki -k -w 100 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html
+  556  a2ps -r -k --columns=1 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html -o ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps
+  557  ps2pdf -k ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.pdf
+  558  cd ~/labs/lab4-$MYGIT
+  559  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  560  git add .
+  561  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  562  git pull --no-edit
+  563  git push
+  564  -h
+  565  alv -h
+  566  alv -k -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  567  alv -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  568  alv -k -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  569  alv -h
+  570  alv --keep-colors-when-redirecting -kli  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  571  alv --keep-colors-when-redirecting -kli --majority ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | less -RS
+  572  alv -ki --keep-colors-when-redirecting -w 100 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html
+  573  a2ps -r --keep-colors-when-redirecting --columns=1 ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.html -o ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps
+  574  ps2pdf --keep-colors-when-redirecting ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.ps ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.pdf
+  575  ls
+  576  cd ~/labs/lab4-$MYGIT
+  577  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  578  git add .
+  579  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  580  ls
+  581  alv -h
+  582  ~/labs
+  583  cd ~/labs
+  584  ls
+  585  cd ~/labs/lab3-L4-ezhu
+  586  cd ~/labs/lab4-L4-ezhu
+  587  ls
+  588  /home/ec2-user/labs/lab3-L4-ezhu
+  589  /labs/lab3-L4-ezhu
+  590  /home/ec2-user/labs/lab3-L4-ezhu
+  591  ls
+  592  cd ~/labs
+  593  cd ~/labs/lab4-$MYGIT
+  594  ls
+  595  cd ~/labs/lab4-$MYGIT/gqr
+  596  less gqr.homologs.fas
+  597  ~/labs/lab4-$MYGIT/gqr/gqr.homologs.fas
+  598  less gqr.homologs.fas
+  599  cd ~/labs/lab4-$MYGIT/psma
+  600  mkdir ~/labs/lab4-$MYGIT/gqr
+  601  ls
+  602  mkdir ~/labs/lab4-$MYGIT/psma
+  603  cd ~/labs/lab4-$MYGIT/psma
+  604  ls
+  605  seqkit grep --pattern-file ~/labs/lab3-$MYGIT/psma/psma.blastp.detail.filtered.out ~/labs/lab3-$MYGIT/allprotein.fas > ~/labs/lab4-$MYGIT/psma/psma.homologs.fas
+  606  ls
+  607  muscle -in ~/labs/lab4-$MYGIT/psma/psma.homologs.fas -out ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas
+  608  alv -kli  ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | less -RS
+  609  alv -h
+  610  alv -kli --majority ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | less -RS -k
+  611  alv -kli --majority ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | less -RS
+  612  alv -ki -w 100 ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/psma/psma.homologs.al.html
+  613  a2ps -r --columns=1 ~/labs/lab4-$MYGIT/psma/psma.homologs.al.html -o ~/labs/lab4-$MYGIT/psma/psma.homologs.al.ps
+  614  ps2pdf ~/labs/lab4-$MYGIT/psma/psma.homologs.al.ps ~/labs/lab4-$MYGIT/psma/psma.homologs.al.pdf
+  615  alignbuddy  -al  ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas
+  616  alignbuddy -trm all  ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | alignbuddy  -al
+  617  alignbuddy -dinv 'ambig' ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | alignbuddy  -al
+  618  t_coffee -other_pg seq_reformat -in ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas -output sim
+  619  alignbuddy -pi ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | awk ' (NR>2)  { for (i=2;i<=NF  ;i++){ sum+=$i;num++} }
+  620       END{ print(100*sum/num) } '
+  621  history > lab4.commandhistory.txt
+  622  cd ~/labs/lab4-$MYGIT
+  623  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  624  git add .
+  625  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  626  git pull --no-edit
+  627  git push
+  628  ls
+  629  less psma
+  630  cd ~/labs/lab4-$MYGIT/psma
+  631  ls
+  632  cd ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas
+  633  cd ~/labs/lab4-$MYGIT/psma/psma.homologs.fas
+  634  ~/labs/lab4-$MYGIT/psma/psma.homologs.fas
+  635  pwd
+  636  /home/ec2-user/labs/lab4-L4-ezhu/psma
+  637  ls
+  638  cd/ lab4-L4-ezhu
+  639  cd ~/lab4-L4-ezhu
+  640  cd ~/lab
+  641  cd ~/labs
+  642  ls
+  643  /home/ec2-user/labs/lab4-L4-ezhu/psma
+  644  echo $MYGIT
+  645  cd ~/labs
+  646  git clone https://github.com/Bio312/lab5-$MYGIT
+  647  cd lab5-$MYGIT
+  648  pwd
+  649  ls
+  650  echo "((You,your_sister),your_cousin);" > ~/labs/lab5-$MYGIT/family.tre
+  651  ls
+  652  nw_display ~/labs/lab5-$MYGIT/family.tre 
+  653  nw_display -s ~/labs/lab5-$MYGIT/family.tre > ~/labs/lab5-$MYGIT/family.tre.svg
+  654  git add ~/labs/lab5-$MYGIT/family.tre.svg
+  655  git commit -m "created an svg from a newick file"
+  656  git pull --no-edit
+  657  git push
+  658  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/family.tre ~/labs/lab5-$MYGIT/family.unrooted.pdf 1
+  659     echo "(You,(Justin, Ryan), (Jessica, Jaykin), Vanessa);" > ~/labs/lab5-$MYGIT/family.tre
+  660  nw_display ~/labs/lab5-$MYGIT/family.tre 
+  661  git add ~/labs/lab5-$MYGIT/family.tre.svg
+  662  git commit -m "created an svg from a newick file"
+  663  git pull --no-edit
+  664  git push
+  665     echo "(You,(Justin, Ryan), (Jessica, Jaykin), Vanessa);" > ~/labs/lab5-$MYGIT/family.tre
+  666     echo "(You,(Justin, Ryan), (Jessica, Jaykin), Vanessa);" > ~/labs/lab5-$MYGIT/family.tree
+  667  ls
+  668  nw_display ~/labs/lab5-$MYGIT/family.tree
+  669  nw_display ~/labs/lab5-$MYGIT/family.tre
+  670  echo "((You,your_sister),your_cousin);" > ~/labs/lab5-$MYGIT/family.tre
+  671  nw_display ~/labs/lab5-$MYGIT/family.tre
+  672  nw_display ~/labs/lab5-$MYGIT/family.tree
+  673  nw_display -s ~/labs/lab5-$MYGIT/family.tre > ~/labs/lab5-$MYGIT/family.tre.svg
+  674  nw_display -s ~/labs/lab5-$MYGIT/family.tree > ~/labs/lab5-$MYGIT/family.tree.svg
+  675  git add ~/labs/lab5-$MYGIT/family.tree.svg
+  676  git commit -m "created an svg from a newick file"
+  677  git pull --no-edit
+  678  git push
+  679   echo "(((Mom, Dad), You),((Aunt Sonia, Uncle Andy), (Justin, Ryan)), ((Aunt Donna, Uncle Dennis), (Jessica, Jaykin)), ((Aunt Cheri, Uncle Francis), Vanessa);" > ~/labs/lab5-$MYGIT/family.extended
+  680  nw_display ~/labs/lab5-$MYGIT/family.extend
+  681  echo "(((Mom, Dad), You),((Aunt Sonia, Uncle Andy), (Justin, Ryan)), ((Aunt Donna, Uncle Dennis), (Jessica, Jaykin)), ((Aunt Cheri, Uncle Francis), Vanessa);" > ~/labs/lab5-$MYGIT/family.extended
+  682  ks
+  683  ls
+  684  nw_display ~/labs/lab5-$MYGIT/family.extended
+  685  echo "(((Mom, Dad), You),((Aunt_Sonia, Uncle_Andy), (Justin, Ryan)), ((Aunt_Donna, Uncle_Dennis), (Jessica, Jaykin)), ((Aunt_Cheri, Uncle_Francis), Vanessa);" > ~/labs/lab5-$MYGIT/family.extended
+  686  nw_display ~/labs/lab5-$MYGIT/family.extended
+  687   echo "(((Mom, Dad), You),((Aunt_Sonia, Uncle_Andy), (Justin, Ryan)), ((Aunt_Donna, Uncle_Dennis), (Jessica, Jaykin)), ((Aunt_Cheri, Uncle_Francis), Vanessa));" > ~/labs/lab5-$MYGIT/family.extended
+  688  nw_display ~/labs/lab5-$MYGIT/family.extended
+  689   echo "((Mom, Dad, (You)),(Aunt_Sonia, Uncle_Andy, (Justin, Ryan)), (Aunt_Donna, Uncle_Dennis, (Jessica, Jaykin)), (Aunt_Cheri, Uncle_Francis, (Vanessa));" > ~/labs/lab5-$MYGIT/family.extended
+  690  nw_display ~/labs/lab5-$MYGIT/family.extended
+  691   echo "((Mom, Dad, (You)),(Aunt_Sonia, Uncle_Andy, (Justin, Ryan)), (Aunt_Donna, Uncle_Dennis, (Jessica, Jaykin)), (Aunt_Cheri, Uncle_Francis, (Vanessa)));" > ~/labs/lab5-$MYGIT/family.extended
+  692  nw_display ~/labs/lab5-$MYGIT/family.extended
+  693   echo "((Mom, Dad, (You)): ((Aunt_Sonia, Uncle_Andy, (Justin, Ryan)), (Aunt_Donna, Uncle_Dennis, (Jessica, Jaykin)), (Aunt_Cheri, Uncle_Francis, (Vanessa)));" > ~/labs/lab5-$MYGIT/family.extended
+  694  nw_display ~/labs/lab5-$MYGIT/family.extended
+  695  lz
+  696  ls
+  697  rm -i mydir/*
+  698  rm -i family.extended
+  699  ls
+  700  less family.tre
+  701  less family.tree
+  702  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/family.tre ~/labs/lab5-$MYGIT/family.unrooted.pdf 1
+  703  git push
+  704  git add ~/labs/lab5-$MYGIT/family.tre.svg
+  705  git add /home/ec2-user/labs/lab5-L4-ezhu/family.unrooted.pdf
+  706  git commit -m "created an svg from a newick file" 
+  707  git pull --no-edit
+  708  git push
+  709  ls
+  710  less family.tree.svg
+  711  ls
+  712  less family.tree
+  713  nw_display ~/labs/lab5-$MYGIT/family.tree
+  714  nw_display -s ~/labs/lab5-$MYGIT/family.tree > ~/labs/lab5-$MYGIT/family.tree.svg
+  715  echo "((((Vertebrata,Urochordata),Cephalochordata)Chordata,Echinodermata)Deuterostomia,(((Brachiopoda,Mollusca)Lophotrochozoa,(Platyhelminthes,Rotifera/Gnathifera))Spiralia,Arthropoda/Ecdysozoa)Protostomia)Bilateria;" > ~/labs/lab5-$MYGIT/phyla.tre
+  716  nw_display ~/labs/lab5-$MYGIT/phyla.tre
+  717  echo "((((Vertebrata,Urochordata),Cephalochordata),Echinodermata),(((Brachiopoda,Mollusca),(Platyhelminthes,Rotifera/Gnathifera)),Arthropoda/Ecdysozoa));" | nw_display -
+  718  nw_reroot phyla.tre Vertebrata >phyla.reroot.tre   
+  719  nw_display phyla.reroot.tre
+  720  echo "((((Hsapiens,Cintestinalis),Bbelcheri)Chordata,Aplanci)Deuterostomia,(((Lanatina,Myessoensis)Lophotrochozoa,(Egranulosus,Avaga))Spiralia,Dmelanogaster)Protostomia)Bilateria;"  > ~/labs/lab5-$MYGIT/species.tre
+  721  ls
+  722  nw_display ~/labs/lab5-$MYGIT/species.tre
+  723  nw_display -s ~/labs/lab5-$MYGIT/species.tre > ~/labs/lab5-$MYGIT/species.tre.svg
+  724  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/species.tre ~/labs/lab5-$MYGIT/species.unrooted.pdf
+  725  ls
+  726  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/species.tre ~/labs/lab5-$MYGIT/species.unrooted.pdf
+  727  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  728  git add .
+  729  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  730  git pull --no-edit
+  731  git push
+  732  ls
+  733  echo "((((Hsapiens,Cintestinalis),Bbelcheri)Chordata,Aplanci)Deuterostomia,(((Lanatina,Myessoensis)Lophotrochozoa,(Egranulosus,Avaga))Spiralia,Dmelanogaster)Protostomia)Bilateria;"  > ~/labs/lab5-$MYGIT/species.tre
+  734  nw_display ~/labs/lab5-$MYGIT/species.tre
+  735  nw_display -s ~/labs/lab5-$MYGIT/species.tre > ~/labs/lab5-$MYGIT/species.tre.svg
+  736  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/species.tre ~/labs/lab5-$MYGIT/species.unrooted.pdf
+  737  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/species.tre ~/labs/lab5-$MYGIT/species.unrooted.pdf 2
+  738  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  739  git add .
+  740  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  741  git pull --no-edit
+  742  git push
+  743  ls
+  744  mkdir ~/labs/lab5-$MYGIT/gqr
+  745  cd ~/labs/lab5-$MYGIT/gqr  
+  746  cp ~/labs/lab4-$MYGIT/gqr/gqr.homologs.al.fas ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas   
+  747  iqtree -s ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas -bb 1000 -nt 2
+  748  ls
+  749  nano gqr.homologs.al.fas.treefile
+  750  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  751  nano ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  752  nw_display ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile
+  753  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.4
+  754  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf
+  755  git commit -m "created an svg from a newick file"
+  756  git pull --no-edit
+  757  git push
+  758  git add ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.4
+  759  git commit -m "created an svg from a newick file"
+  760  git pull --no-edit
+  761  git push
+  762  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.2
+  763  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.2
+  764  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf
+  765  git commit -m "created an svg from a newick file"
+  766  git pull --no-edit
+  767  git push
+  768  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.3
+  769  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf
+  770  git commit -m "created an svg from a newick file"
+  771  git pull --no-edit
+  772  git push
+  773  nano ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  774  less ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  775  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  776  nano ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  777  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.4
+  778  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf
+  779  git commit -m "created an svg from a newick file"
+  780  git pull --no-edit
+  781  git push
+  782  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile
+  783  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile  | nw_display -
+  784  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  785  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  786  git commit -m "created an svg from a newick file"
+  787  git pull --no-edit
+  788  git push
+  789  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  790  ls
+  791  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  792  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  793  git commit -m "created an svg from a newick file"
+  794  git pull --no-edit
+  795  git push
+  796  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg
+  797  git commit -m "created an svg from a newick file"
+  798  git pull --no-edit
+  799  git push
+  800  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg
+  801  git commit -m "created an svg from a newick file"
+  802  git pull --no-edit
+  803  git push
+  804  ls
+  805  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  806  ls
+  807  less gqr.homologs.al.mid.treefile.svg
+  808  nw_display -s gqr.homologs.al.mid.treefile.svg
+  809  ls
+  810  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  811  nano gqr.homologs.al.mid.treefile.svg
+  812  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  813  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile  | nw_display -
+  814  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg  | nw_display -
+  815  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  816  ls
+  817  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/gqr.homologs.al.mid.treefile -o ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg
+  818  ls
+  819  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  820  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg
+  821  git commit -m "created an svg from a newick file"
+  822  git pull --no-edit
+  823  git push
+  824  cd ~/labs/lab5-$MYGIT/
+  825  ls
+  826  mkdir ~/labs/lab5-$MYGIT/psma
+  827  cd ~/labs/lab5-$MYGIT/psma 
+  828  cp ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas  
+  829  cp ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas  ls
+  830  ls
+  831  iqtree -s ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas -bb 1000 -nt 2
+  832  nano ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.iqtree
+  833  nano ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.iqtree
+  834  nw_display ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile
+  835  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf 0.4
+  836  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf
+  837  git commit -m "created an svg from a newick file"
+  838  git pull --no-edit
+  839  git push
+  840  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile
+  841  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  842  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  843  ls
+  844  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  845  git commit -m "created an svg from a newick file"
+  846  git pull --no-edit
+  847  git push
+  848  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/psma/psma.homologs.al.midCl.treefile.svg -
+  849  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg
+  850  git commit -m "created an svg from a newick file"
+  851  ls
+  852  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/psma/psma.homologs.al.midCl.treefile.svg -
+  853  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.midCl.treefile.svg
+  854  git commit -m "created an svg from a newick file"
+  855  git pull --no-edit
+  856  git push
+  857  screen -dRR
+  858  history > lab5.commandhistory.txt
+  859  cd ~/labs/lab5-$MYGIT
+  860  history > lab5.commandhistory.txt
+  861  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  862  git add .
+  863  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  864  git pull --no-edit
+  865  history > lab5.commandhistory.txt
+  866  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  867  git add .
+  868  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  869  git pull --no-edit
+  870  git push
+  871  nano ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.iqtree
+  872  nw_display ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile
+  873  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf 0.4
+  874  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf
+  875  git commit -m "created an svg from a newick file"
+  876  git pull --no-edit
+  877  git push
+  878  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg
+  879  git commit -m "created an svg from a newick file"
+  880  git pull --no-edit
+  881  git push
+  882  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  883  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile
+  884  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile  | nw_display -
+  885  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  886  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  887  git commit -m "created an svg from a newick file"
+  888  git pull --no-edit
+  889  git push
+  890  ls
+  891  cd ~/labs/lab4-$MYGIT/psma
+  892  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile
+  893  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile  | nw_display -
+  894  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  895  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile.svg -
+  896  git commit -m "created an svg from a newick file"
+  897  git pull --no-edit
+  898  git push
+  899  nw_order -c n ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg -
+  900  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.midCl.treefile.svg
+  901  git commit -m "created an svg from a newick file"
+  902  nw_display ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile
+  903  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf 0.4
+  904  git add ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile.pdf
+  905  git commit -m "created an svg from a newick file"
+  906  git pull --no-edit
+  907  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile
+  908  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  909  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  910  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  911  git commit -m "created an svg from a newick file"
+  912  git pull --no-edit
+  913  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/labs/lab5-$MYGIT/psma/psma.homologs.al.midCl.treefile.svg -
+  914  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.midCl.treefile.svg
+  915  git commit -m "created an svg from a newick file"
+  916  git pull --no-edit
+  917  git push
+  918  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile
+  919  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  920  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  921  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  922  git commit -m "created an svg from a newick file"
+  923  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg
+  924  ls
+  925  nw_display ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile
+  926  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf 0.4
+  927  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf
+  928  nano ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.iqtree
+  929  nw_display ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.fas.treefile
+  930  nw_display ~/labs/lab5-$MYGIT/species.tre
+  931  cd ~/labs/lab4-$MYGIT/psma
+  932  seqkit grep --pattern-file ~/labs/lab3-$MYGIT/psma/psma.blastp.detail.filtered.out ~/labs/lab3-$MYGIT/allprotein.fas > ~/labs/lab4-$MYGIT/psma/psma.homologs.fas
+  933  alv -kli  ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | less -RS
+  934  alv -kli --majority ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | less -RS
+  935  alv -ki -w 100 ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas | aha > ~/labs/lab4-$MYGIT/psma/psma.homologs.al.html
+  936  a2ps -r --columns=1 ~/labs/lab4-$MYGIT/psma/psma.homologs.al.html -o ~/labs/lab4-$MYGIT/psma/psma.homologs.al.ps
+  937  ps2pdf ~/labs/lab4-$MYGIT/psma/psma.homologs.al.ps ~/labs/lab4-$MYGIT/psma/psma.homologs.al.pdf
+  938  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile
+  939  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display 
+  940  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  941  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  942  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg
+  943  ln -s
+  944  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg
+  945  ls
+  946  .git/config
+  947  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg
+  948  cp ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas  
+  949  ls
+  950  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile
+  951  ls
+  952  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  953  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  954  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg
+  955  git commit -m "created an svg from a newick file"
+  956  git pull --no-edit
+  957  git push
+  958  /home/ec2-user/labs/lab4-L4-ezhu
+  959  cd /home/ec2-user/labs/lab4-L4-ezhu
+  960  ls
+  961  cd /home/ec2-user/labs/lab4-L4-ezhu/psma
+  962  ls
+  963  cd ~/labs/lab5-$MYGIT/psma 
+  964  ls
+  965  cp ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas  
+  966  Downloads psma.homologs.al.fas
+  967  cp ~/labs/lab4-$MYGIT/psma/psma.homologs.al.fas ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas  
+  968  nano ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.iqtree
+  969  nw_display ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile
+  970  Rscript --vanilla ~/labs/lab5-$MYGIT/plotUnrooted.R  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf 0.4
+  971  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile.pdf
+  972  git commit -m "created an svg from a newick file"
+  973  git pull --no-edit
+  974  gotree reroot midpoint -i ~/labs/lab5-$MYGIT/psma/psma.homologs.al.fas.treefile -o ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile
+  975  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  976  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg -
+  977  git add ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile.svg
+  978  git commit -m "created an svg from a newick file"
+  979  git pull --no-edit
+  980  git push
+  981  ls
+  982  nw_order -c n ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile  | nw_display -
+  983  history > lab5.commandhistory.txt
+  984  cd ~/labs/lab5-$MYGIT
+  985  ls
+  986  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  987  git add .
+  988  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  989  git pull --no-edit
+  990  git push
+  991  screen -dRR
+  992  LS
+  993  ls
+  994  cd ~/labs
+  995  ls
+  996  cd ~/labs/labs5-L4-ezhu
+  997  lab5-L4-ezhu
+  998  cd lab5-L4-ezhu
+  999  ls
+ 1000  cd ~/labs
+ 1001  git clone https://github.com/Bio312/lab6-$MYGIT
+ 1002  cd ~/labs/lab6-$MYGIT
+ 1003  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar --help 
+ 1004  nano ~/labs/lab6-$MYGIT/toyspecies.tre
+ 1005  nw_display ~/labs/lab6-$MYGIT/toyspecies.tre
+ 1006  nano ~/labs/lab6-$MYGIT/toyspecies.tre
+ 1007  nw_display ~/labs/lab6-$MYGIT/toyspecies.tre
+ 1008  nano ~/labs/lab6-$MYGIT/toygenetree.tre
+ 1009  nw_display ~/labs/lab6-$MYGIT/toygenetree.tre
+ 1010  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s ~/labs/lab6-$MYGIT/toyspecies.tre -g ~/labs/lab6-$MYGIT/toygenetree.tre --reconcile --speciestag prefix --savepng --events --outputdir ~/labs/lab6-$MYGIT/
+ 1011  ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1012  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s ~/labs/lab6-$MYGIT/toyspecies.tre -g ~/labs/lab6-$MYGIT/toygenetree.tre --reconcile --speciestag prefix --savepng --events --outputdir ~/labs/lab6-$MYGIT/
+ 1013  ls
+ 1014  nw_display ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1015  ls
+ 1016  less -S ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1017  etree.tre.reconciled.events.txt
+ 1018  COST: 2.5
+ 1019  Duplications
+ 1020  Gene                L. Bound            U. Bound            
+ 1021  =================== =================== =================== 
+ 1022  n19                 Tetrapoda           N/A
+ 1023  Duplications: 1 
+ 1024  Losses
+ 1025  Species             No. of Losses  
+ 1026  =================== ============== 
+ 1027  Tetrapoda           0
+ 1028  mouse               1
+ 1029  frog                0
+ 1030  Amniota             0
+ 1031  chick               0
+ 1032  Losses: 1
+ 1033  Species             Duplications   cD_Nodes       Transfers_from Transfers_to   
+ 1034  =================== ============== ============== ============== ============== 
+ 1035  Tetrapoda           1              0              0              0              
+ 1036  mouse               0              0              0              0              
+ 1037  frog                0              0              0              0              
+ 1038  Amniota             0              0              0              0              
+ 1039  chick               0              0              0              0              
+ 1040  Duplications: 1
+ 1041  Losses: 1
+ 1042  ls
+ 1043  less -S ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1044  git add ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.png
+ 1045  git status
+ 1046  git commit -m "created a reconciled gene tree png " 
+ 1047  git pull --no-edit
+ 1048  git push
+ 1049  python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled --include.species --outputdir ~/labs/lab6-$MYGIT/
+ 1050  ls
+ 1051  thirdkind -Iie -f ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.xml -o  ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.svg
+ 1052  ls
+ 1053  git add ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.svg
+ 1054  git commit -m "created a reconciled gene tree png "
+ 1055  git pull --no-edit
+ 1056  git push
+ 1057  nw_display ~/labs/lab5-$MYGIT/species.tre
+ 1058  cd ~/labs/lab6-$MYGIT/gqr
+ 1059  ls ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile
+ 1060  ls
+ 1061  cp ~/labs/lab5-$MYGIT/gqr/gqr.homologs.al.mid.treefile ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile
+ 1062  ls
+ 1063  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s ~/labs/lab5-$MYGIT/species.tre -g ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/labs/lab6-$MYGIT/gqr/
+ 1064  less -S gqr.homologs.al.mid.treefile.reconciled.events.txt
+ 1065  nw_display ~/labs/lab5-$MYGIT/species.tre
+ 1066  grep NOTUNG-SPECIES-TREE ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled | sed -e "s/^\[&&NOTUNG-SPECIES-TREE//" -e "s/\]/;/" | nw_display -
+ 1067  git add ~/labs/lab6-$MYGIT/gqr.homologs.al.mid.treefile.reconciled.png
+ 1068  ls
+ 1069  grep NOTUNG-SPECIES-TREE ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled | sed -e "s/^\[&&NOTUNG-SPECIES-TREE//" -e "s/\]/;/" | nw_display -
+ 1070  git add ~/labs/lab6-$MYGIT/gqr.homologs.al.mid.treefile.reconciled.png
+ 1071  ls
+ 1072  git add ~/labs/lab6-$MYGIT/gqr.homologs.al.mid.treefile.reconciled.png
+ 1073  ls
+ 1074  less -S toygenetree.tre.reconciled.png
+ 1075  toygenetree.tre.reconciled.png~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1076  ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1077  less -S
+ 1078  less - S ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.events.txt
+ 1079  grep NOTUNG-SPECIES-TREE ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled | sed -e "s/^\[&&NOTUNG-SPECIES-TREE//" -e "s/\]/;/" | nw_display -
+ 1080  git add ~/labs/lab6-$MYGIT/gqr.homologs.al.mid.treefile.reconciled.png
+ 1081  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s ~/labs/lab5-$MYGIT/species.tre -g ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/labs/lab6-$MYGIT/gqr/
+ 1082  ls
+ 1083  git add ~/labs/lab6-$MYGIT/gqr.homologs.al.mid.treefile.reconciled.png
+ 1084  git add ~/labs/lab6-$MYGIT/toygenetree.tre.reconciled.png
+ 1085  git status
+ 1086  git commit -m "created a reconciled gene tree png " 
+ 1087      git pull --no-edit
+ 1088  git push
+ 1089  ls
+ 1090  less gqr.homologs.al.mid.treefile.reconciled.png
+ 1091  git add ~/labs/git add ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled.png
+ 1092  git add ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled.png
+ 1093  git commit -m "created a reconciled gene tree png "
+ 1094  git pull --no-edit
+ 1095  git push
+ 1096  python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled --include.species
+ 1097  ls
+ 1098  thirdkind -Iie -D 40 -f ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled.xml -o  ~/labs/lab6-$MYGIT/gqr/gqr.homologs.al.mid.treefile.reconciled.svg
+ 1099  ls
+ 1100  cd ~/labs/lab6-$MYGIT
+ 1101  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+ 1102  git add .
+ 1103  git status
+ 1104  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+ 1105  git pull --no-edit
+ 1106  git push
+ 1107  cd ~/labs/lab6-$MYGIT/
+ 1108  mkdir ~/labs/lab6-$MYGIT/psma
+ 1109  ls
+ 1110  cd ~/labs/lab6-$MYGIT/psma 
+ 1111  cp ~/labs/lab5-$MYGIT/psma/psma.homologs.al.mid.treefile ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile
+ 1112  java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s ~/labs/lab5-$MYGIT/species.tre -g ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/labs/lab6-$MYGIT/psma/
+ 1113  less -S psma.homologs.al.mid.treefile.reconciled.events.txt
+ 1114  ls
+ 1115  nw_display ~/labs/lab5-$MYGIT/species.tre
+ 1116  grep NOTUNG-SPECIES-TREE ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile.reconciled | sed -e "s/^\[&&NOTUNG-SPECIES-TREE//" -e "s/\]/;/" | nw_display -
+ 1117  git add ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile.reconciled.png
+ 1118  git commit -m "created a reconciled gene tree png "
+ 1119  git pull --no-edit
+ 1120  git push
+ 1121  ls
+ 1122  python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile.reconciled --include.species
+ 1123  ls
+ 1124  thirdkind -Iie -D 40 -f ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile.reconciled.xml -o  ~/labs/lab6-$MYGIT/psma/psma.homologs.al.mid.treefile.reconciled.svg
+ 1125  history > lab6.commandhistory.txt

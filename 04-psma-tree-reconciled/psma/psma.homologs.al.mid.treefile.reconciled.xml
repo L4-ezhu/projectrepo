@@ -1,0 +1,1285 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Bilateria</name>
+        <clade>
+          <name>Deuterostomia</name>
+          <clade>
+            <name>Chordata</name>
+            <clade>
+              <name>n147</name>
+              <clade>
+                <name>Cintestinalis</name>
+              </clade>
+              <clade>
+                <name>Hsapiens</name>
+              </clade>
+            </clade>
+            <clade>
+              <name>Bbelcheri</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Aplanci</name>
+          </clade>
+        </clade>
+        <clade>
+          <name>Protostomia</name>
+          <clade>
+            <name>Spiralia</name>
+            <clade>
+              <name>Lophotrochozoa</name>
+              <clade>
+                <name>Myessoensis</name>
+              </clade>
+              <clade>
+                <name>Lanatina</name>
+              </clade>
+            </clade>
+            <clade>
+              <name>n157</name>
+              <clade>
+                <name>Avaga</name>
+              </clade>
+              <clade>
+                <name>Egranulosus</name>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>Dmelanogaster</name>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n89</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <duplication speciesLocation="Bilateria"></duplication>
+        </eventsRec>
+        <clade>
+          <name>n69</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.08858950465</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Bilateria"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n67</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.2681787653</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Bilateria"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n45</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.825574782</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Bilateria"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n43</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0388182522</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Bilateria"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>r61</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Bilateria"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r59</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Deuterostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r57</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Chordata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n37</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0216264662</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="n147"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>Hsapiens.NP_002781.2_proteasome_subunit_alpha_type</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.101454576</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_002781.2_proteasome_subunit_alpha_type"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>Cintestinalis.LOC100176195_proteasome_subunit_alph</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.2173277277</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="Cintestinalis" geneName="Cintestinalis.LOC100176195_proteasome_subunit_alph"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Bbelcheri*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Bbelcheri"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Aplanci*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Aplanci"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Protostomia*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Protostomia"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>n42</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0271087344</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Bilateria"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r65</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Protostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r63</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Spiralia"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n40</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0306436555</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Lophotrochozoa"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>Myessoensis.XP_021360390.1_proteasome_subunit_alph</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0666696209</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021360390.1_proteasome_subunit_alph"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>Lanatina.XP_013415237.1_proteasome_subunit_alpha_t</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0966713124</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="Lanatina" geneName="Lanatina.XP_013415237.1_proteasome_subunit_alpha_t"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>n157*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="n157"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Dmelanogaster*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Dmelanogaster"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>r67</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Deuterostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>Aplanci.LOC110982065_proteasome_subunit_alpha_type</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1310527303</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Aplanci" geneName="Aplanci.LOC110982065_proteasome_subunit_alpha_type"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Chordata*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Chordata"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r73</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Bilateria"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r71</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Deuterostomia"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r69</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Chordata"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>Bbelcheri.LOC109486945_proteasome_subunit_alpha_ty</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0732159361</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.LOC109486945_proteasome_subunit_alpha_ty"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>n147*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="n147"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Aplanci*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Aplanci"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Protostomia*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Protostomia"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>n66</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.6603974153</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Bilateria"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n64</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.1324113224</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Bilateria"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n62</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0666872036</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Bilateria"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>n54</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0206264979</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Bilateria"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n50</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0212116627</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Bilateria"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r79</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Protostomia"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r77</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Spiralia"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r75</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="n157"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>n48</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.2284111878</branch_length>
+                              <eventsRec>
+                                <duplication speciesLocation="Avaga"></duplication>
+                              </eventsRec>
+                              <clade>
+                                <name>Avaga.UJR34060.1_hypothetical_protein_I4U23_021471</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.033655741</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="Avaga" geneName="Avaga.UJR34060.1_hypothetical_protein_I4U23_021471"></leaf>
+                                </eventsRec>
+                              </clade>
+                              <clade>
+                                <name>Avaga.UJR13309.1_hypothetical_protein_I4U23_000327</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0207063946</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="Avaga" geneName="Avaga.UJR13309.1_hypothetical_protein_I4U23_000327"></leaf>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Egranulosus*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="Egranulosus"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Lophotrochozoa*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Lophotrochozoa"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Dmelanogaster*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Dmelanogaster"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>r83</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Deuterostomia"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r81</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Chordata"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>Bbelcheri.LOC109473572_proteasome_subunit_alpha_ty</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.1020041717</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.LOC109473572_proteasome_subunit_alpha_ty"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>n147*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="n147"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Aplanci*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Aplanci"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>r89</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Bilateria"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r87</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Protostomia"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r85</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Spiralia"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n53</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0317896487</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Lophotrochozoa"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>Myessoensis.XP_021354253.1_proteasome_subunit_alph</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1005000067</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021354253.1_proteasome_subunit_alph"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>Lanatina.XP_013389043.1_proteasome_subunit_alpha_t</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0926069677</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="Lanatina" geneName="Lanatina.XP_013389043.1_proteasome_subunit_alpha_t"></leaf>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>n157*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="n157"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Dmelanogaster*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Dmelanogaster"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Deuterostomia*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Deuterostomia"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>r93</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Bilateria"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n61</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.042905524</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Deuterostomia"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r91</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Chordata"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n59</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0221536577</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="n147"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n57</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.048710171</branch_length>
+                            <eventsRec>
+                              <duplication speciesLocation="Hsapiens"></duplication>
+                            </eventsRec>
+                            <clade>
+                              <name>Hsapiens.NP_001020267.1_proteasome_subunit_alpha-t</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1226434354</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_001020267.1_proteasome_subunit_alpha-t"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>Hsapiens.NP_002783.1_proteasome_subunit_alpha_type</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.092115811</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_002783.1_proteasome_subunit_alpha_type"></leaf>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Cintestinalis.LOC100176760_proteasome_subunit_alph</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.1513485551</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="Cintestinalis" geneName="Cintestinalis.LOC100176760_proteasome_subunit_alph"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Bbelcheri*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Bbelcheri"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Aplanci.LOC110989014_proteasome_subunit_alpha_type</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0947400719</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Aplanci" geneName="Aplanci.LOC110989014_proteasome_subunit_alpha_type"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Protostomia*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Protostomia"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>r97</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Bilateria"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r95</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Protostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>Dmelanogaster.Prosalpha4_proteasome_alpha4_subunit</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.2882981808</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Dmelanogaster" geneName="Dmelanogaster.Prosalpha4_proteasome_alpha4_subunit"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Spiralia*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Spiralia"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Deuterostomia*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Deuterostomia"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r105</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Bilateria"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r103</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Protostomia"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r101</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Spiralia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r99</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="n157"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>Egranulosus.XP_024351634.1_Proteasome_subunit_alph</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1896026456</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Egranulosus" geneName="Egranulosus.XP_024351634.1_Proteasome_subunit_alph"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>Avaga*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Avaga"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Lophotrochozoa*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Lophotrochozoa"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Dmelanogaster*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Dmelanogaster"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Deuterostomia*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Deuterostomia"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r113</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Bilateria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r111</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Protostomia"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r109</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Spiralia"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r107</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Lophotrochozoa"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>Lanatina.XP_013417278.1_proteasome_subunit_alpha_t</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.1471914867</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Lanatina" geneName="Lanatina.XP_013417278.1_proteasome_subunit_alpha_t"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>Myessoensis*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Myessoensis"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>n157*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="n157"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Dmelanogaster*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Dmelanogaster"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>Deuterostomia*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="Deuterostomia"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>n88</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.83894466445</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Bilateria"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n86</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.1470986683</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Bilateria"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n84</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.0739730377</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Bilateria"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n80</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0224848503</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Bilateria"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n78</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0224329444</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Bilateria"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r119</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Protostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r117</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Spiralia"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r115</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="n157"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n72</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.3760383696</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="Avaga"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>Avaga.UJR30804.1_hypothetical_protein_I4U23_018322</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0391967659</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="Avaga" geneName="Avaga.UJR30804.1_hypothetical_protein_I4U23_018322"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>Avaga.UJR15799.1_hypothetical_protein_I4U23_002731</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0373567848</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="Avaga" geneName="Avaga.UJR15799.1_hypothetical_protein_I4U23_002731"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Egranulosus*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Egranulosus"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Lophotrochozoa*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Lophotrochozoa"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Dmelanogaster*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Dmelanogaster"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>n77</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0179889992</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Deuterostomia"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n75</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0380140557</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Deuterostomia"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r123</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Chordata"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r121</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="n147"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>Hsapiens.NP_002779.1_proteasome_subunit_alpha_type</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.186358539</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_002779.1_proteasome_subunit_alpha_type"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>Cintestinalis*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Cintestinalis"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Bbelcheri*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Bbelcheri"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Aplanci.LOC110982874_proteasome_subunit_alpha_type</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.2118466908</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Aplanci" geneName="Aplanci.LOC110982874_proteasome_subunit_alpha_type"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>r129</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Deuterostomia"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r127</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Chordata"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r125</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="n147"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>Cintestinalis.LOC100177476_proteasome_subunit_alph</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.3410209565</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="Cintestinalis" geneName="Cintestinalis.LOC100177476_proteasome_subunit_alph"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>Hsapiens*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Hsapiens"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Bbelcheri*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Bbelcheri"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Aplanci*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Aplanci"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>r135</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Bilateria"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r133</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Deuterostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r131</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Chordata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>Bbelcheri.LOC109471095_proteasome_subunit_alpha_ty</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.109953027</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.LOC109471095_proteasome_subunit_alpha_ty"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>n147*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="n147"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Aplanci*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Aplanci"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Protostomia*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Protostomia"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r141</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Bilateria"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r139</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Protostomia"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r137</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Spiralia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n83</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0440686108</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Lophotrochozoa"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>Myessoensis.XP_021370576.1_proteasome_subunit_alph</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1690648945</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021370576.1_proteasome_subunit_alph"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>Lanatina.XP_013384393.1_proteasome_subunit_alpha_t</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1708970387</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Lanatina" geneName="Lanatina.XP_013384393.1_proteasome_subunit_alpha_t"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>n157*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="n157"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Dmelanogaster*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Dmelanogaster"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Deuterostomia*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Deuterostomia"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>r149</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Bilateria"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r147</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Protostomia"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r145</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Spiralia"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r143</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="n157"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>Egranulosus.XP_024352159.1_Proteasome_subunit_alph</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.4647926455</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Egranulosus" geneName="Egranulosus.XP_024352159.1_Proteasome_subunit_alph"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Avaga*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Avaga"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Lophotrochozoa*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Lophotrochozoa"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Dmelanogaster*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Dmelanogaster"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Deuterostomia*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Deuterostomia"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r153</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Bilateria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r151</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Protostomia"></speciation>
+              </eventsRec>
+              <clade>
+                <name>Dmelanogaster.Prosalpha7_proteasome_alpha7_subunit</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.5265444555</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Dmelanogaster" geneName="Dmelanogaster.Prosalpha7_proteasome_alpha7_subunit"></leaf>
+                </eventsRec>
+              </clade>
+              <clade>
+                <name>Spiralia*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Spiralia"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>Deuterostomia*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="Deuterostomia"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>

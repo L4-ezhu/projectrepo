@@ -1,0 +1,317 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Input file name: /home/ec2-user/labs/lab5-L4-ezhu/psma/psma.homologs.al.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 504452
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 28 sequences with 323 amino-acid sites
+Number of constant sites: 72 (= 22.291% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 72 (= 22.291% of all sites)
+Number of parsimony informative sites: 220
+Number of distinct site patterns: 292
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+G4             -7535.585   15179.170 +    0.108   15201.334 +    0.189   15383.163 +    0.505
+LG+I+G4           -7532.715   15175.430 +    0.703   15198.501 +    0.779   15383.201 +    0.495
+LG+R3             -7535.452   15184.904 -  0.00616   15209.855 -  0.00267   15400.230 - 9.93e-05
+LG+R4             -7530.081   15178.162 +    0.179   15205.082 -    0.029   15401.043 - 6.61e-05
+LG+R2             -7556.504   15223.008 - 3.28e-11   15246.079 - 3.63e-11   15430.779 - 2.31e-11
+LG+F+I+G4         -7519.172   15186.344 -    0.003   15231.102 - 6.49e-08   15465.890 - 5.48e-19
+LG+F+G4           -7522.683   15191.367 - 0.000243   15234.756 - 1.04e-08   15467.135 - 2.94e-19
+rtREV+F+I+G4      -7545.922   15239.844 - 7.24e-15   15284.602 - 1.57e-19   15519.390 - 1.32e-30
+rtREV+F+G4        -7549.670   15245.340 - 4.64e-16   15288.729 - 1.99e-20   15521.108 - 5.61e-31
+WAG+I+G4          -7602.251   15314.502 - 4.44e-31   15337.573 - 4.93e-31   15522.273 - 3.13e-31
+WAG+G4            -7606.039   15320.079 - 2.73e-32   15342.243 - 4.77e-32   15524.072 - 1.27e-31
+rtREV+I+G4        -7614.901   15339.802 - 1.43e-36   15362.873 - 1.58e-36   15547.573 -    1e-36
+rtREV+G4          -7617.813   15343.626 - 2.11e-37   15365.790 - 3.68e-37   15547.619 - 9.81e-37
+JTTDCMut+I+G4     -7630.402   15370.805 - 2.64e-43   15393.876 - 2.93e-43   15578.576 - 1.86e-43
+JTTDCMut+G4       -7635.096   15378.192 - 6.57e-45   15400.357 - 1.15e-44   15582.186 - 3.06e-44
+VT+I+G4           -7633.467   15376.934 - 1.23e-44   15400.005 - 1.37e-44   15584.705 - 8.68e-45
+JTT+I+G4          -7633.873   15377.745 - 8.22e-45   15400.817 - 9.11e-45   15585.516 - 5.79e-45
+VT+G4             -7637.710   15383.421 - 4.81e-46   15405.585 -  8.4e-46   15587.414 - 2.24e-45
+JTT+G4            -7638.530   15385.060 - 2.12e-46   15407.224 -  3.7e-46   15589.053 - 9.88e-46
+WAG+F+I+G4        -7594.749   15337.498 - 4.51e-36   15382.257 - 9.77e-41   15617.045 - 8.25e-52
+WAG+F+G4          -7598.695   15343.391 - 2.37e-37   15386.780 - 1.02e-41   15619.159 - 2.86e-52
+mtZOA+F+G4        -7599.461   15344.923 -  1.1e-37   15388.312 - 4.73e-42   15620.691 - 1.33e-52
+mtZOA+F+I+G4      -7597.600   15343.200 - 2.61e-37   15387.958 - 5.65e-42   15622.746 - 4.77e-53
+mtInv+F+I+G4      -7610.572   15369.144 - 6.06e-43   15413.902 - 1.31e-47   15648.690 - 1.11e-58
+mtInv+F+G4        -7614.242   15374.484 -  4.2e-44   15417.873 -  1.8e-48   15650.252 - 5.07e-59
+cpREV+G4          -7669.239   15446.478 - 9.76e-60   15468.642 -  1.7e-59   15650.471 - 4.55e-59
+Blosum62+I+G4     -7666.720   15443.441 - 4.46e-59   15466.512 - 4.94e-59   15651.212 - 3.14e-59
+Blosum62+G4       -7669.759   15447.518 -  5.8e-60   15469.683 - 1.01e-59   15651.512 -  2.7e-59
+LG+I              -7670.017   15448.035 - 4.48e-60   15470.199 - 7.82e-60   15652.028 - 2.09e-59
+cpREV+I+G4        -7667.485   15444.969 - 2.08e-59   15468.041 -  2.3e-59   15652.740 - 1.46e-59
+JTTDCMut+F+I+G4   -7615.427   15378.854 - 4.72e-45   15423.612 - 1.02e-49   15658.400 - 8.63e-61
+JTTDCMut+F+G4     -7620.310   15386.621 - 9.72e-47   15430.010 - 4.17e-51   15662.389 - 1.17e-61
+JTT+F+I+G4        -7618.949   15385.898 - 1.39e-46   15430.656 - 3.02e-51   15665.444 - 2.55e-62
+VT+F+I+G4         -7619.389   15386.779 - 8.98e-47   15431.537 - 1.94e-51   15666.325 - 1.64e-62
+JTT+F+G4          -7623.827   15393.655 - 2.88e-48   15437.044 - 1.24e-52   15669.423 - 3.49e-63
+VT+F+G4           -7623.975   15393.951 - 2.49e-48   15437.340 - 1.07e-52   15669.719 - 3.01e-63
+PMB+I+G4          -7687.321   15484.642 - 5.04e-68   15507.713 - 5.59e-68   15692.413 - 3.55e-68
+PMB+G4            -7690.990   15489.979 - 3.49e-69   15512.144 -  6.1e-69   15693.973 - 1.63e-68
+Dayhoff+I+G4      -7695.881   15501.762 - 9.65e-72   15524.834 - 1.07e-71   15709.533 -  6.8e-72
+DCMut+I+G4        -7696.638   15503.276 - 4.53e-72   15526.348 - 5.02e-72   15711.047 - 3.19e-72
+Dayhoff+G4        -7701.683   15511.367 - 7.93e-74   15533.531 - 1.38e-73   15715.360 - 3.69e-73
+DCMut+G4          -7702.442   15512.884 - 3.71e-74   15535.048 - 6.48e-74   15716.877 - 1.73e-73
+cpREV+F+G4        -7651.328   15448.655 - 3.29e-60   15492.045 - 1.41e-64   15724.424 - 3.97e-75
+cpREV+F+I+G4      -7648.722   15445.443 - 1.64e-59   15490.202 - 3.55e-64   15724.990 - 2.99e-75
+mtART+F+G4        -7660.861   15467.723 - 2.38e-64   15511.112 - 1.02e-68   15743.491 - 2.88e-79
+Dayhoff+F+I+G4    -7659.323   15466.646 - 4.08e-64   15511.404 - 8.83e-69   15746.192 - 7.45e-80
+DCMut+F+I+G4      -7659.862   15467.723 - 2.38e-64   15512.481 - 5.15e-69   15747.269 - 4.35e-80
+mtART+F+I+G4      -7660.393   15468.785 -  1.4e-64   15513.543 - 3.03e-69   15748.331 - 2.56e-80
+Dayhoff+F+G4      -7665.138   15476.276 -  3.3e-66   15519.666 - 1.42e-70   15752.045 - 3.99e-81
+DCMut+F+G4        -7665.674   15477.349 - 1.93e-66   15520.738 - 8.29e-71   15753.118 - 2.34e-81
+LG                -7724.440   15554.879 - 2.82e-83   15576.158 - 7.67e-83   15755.095 - 8.69e-82
+mtMet+F+I+G4      -7667.043   15482.086 - 1.81e-67   15526.844 - 3.92e-72   15761.632 - 3.31e-83
+mtMet+F+G4        -7670.343   15486.686 - 1.81e-68   15530.075 - 7.79e-73   15762.454 - 2.19e-83
+Blosum62+F+I+G4   -7668.785   15485.569 - 3.17e-68   15530.327 - 6.86e-73   15765.116 -  5.8e-84
+Blosum62+F+G4     -7672.475   15490.951 - 2.15e-69   15534.340 - 9.23e-74   15766.719 -  2.6e-84
+mtREV+F+G4        -7675.338   15496.675 - 1.23e-70   15540.065 - 5.27e-75   15772.444 - 1.49e-85
+mtREV+F+I+G4      -7672.606   15493.213 - 6.94e-70   15537.971 -  1.5e-74   15772.759 - 1.27e-85
+PMB+F+I+G4        -7672.835   15493.669 - 5.52e-70   15538.427 -  1.2e-74   15773.215 - 1.01e-85
+PMB+F+G4          -7676.964   15499.927 - 2.42e-71   15543.317 - 1.04e-75   15775.696 - 2.92e-86
+mtZOA+G4          -7810.850   15729.701 - 3.08e-121   15751.865 - 5.37e-121   15933.694 - 1.43e-120
+mtZOA+I+G4        -7810.558   15731.115 - 1.52e-121   15754.186 - 1.68e-121   15938.886 - 1.07e-121
+FLU+G4            -7838.158   15784.317 - 4.25e-133   15806.481 - 7.42e-133   15988.310 - 1.98e-132
+FLU+I+G4          -7835.837   15781.674 - 1.59e-132   15804.746 - 1.77e-132   15989.445 - 1.12e-132
+mtVer+F+G4        -7801.352   15748.704 - 2.3e-125   15792.094 - 9.88e-130   16024.473 - 2.78e-140
+mtVer+F+I+G4      -7798.580   15745.160 - 1.35e-124   15789.918 - 2.93e-129   16024.707 - 2.48e-140
+FLU+F+G4          -7803.573   15753.146 - 2.5e-126   15796.536 - 1.07e-130   16028.915 - 3.02e-141
+FLU+F+I+G4        -7801.620   15751.239 - 6.48e-126   15795.997 - 1.4e-130   16030.785 - 1.18e-141
+HIVb+F+I+G4       -7805.190   15758.381 - 1.82e-127   15803.139 - 3.95e-132   16037.927 - 3.33e-143
+HIVb+F+G4         -7809.151   15764.302 - 9.44e-129   15807.691 - 4.05e-133   16040.070 - 1.14e-143
+HIVb+I+G4         -7862.392   15834.785 - 4.68e-144   15857.856 - 5.18e-144   16042.555 - 3.29e-144
+HIVb+G4           -7865.788   15839.576 - 4.26e-145   15861.741 - 7.43e-145   16043.570 - 1.98e-144
+mtMAM+F+G4        -7871.433   15888.867 - 8.44e-156   15932.256 - 3.62e-160   16164.635 - 1.02e-170
+mtMAM+F+I+G4      -7870.290   15888.580 - 9.74e-156   15933.338 - 2.11e-160   16168.126 - 1.78e-171
+mtMet+G4          -7948.874   16005.749 - 3.51e-181   16027.913 - 6.13e-181   16209.742 - 1.64e-180
+mtMet+I+G4        -7947.797   16005.594 - 3.79e-181   16028.665 - 4.21e-181   16213.365 - 2.67e-181
+mtInv+G4          -7961.327   16030.655 - 1.37e-186   16052.819 - 2.39e-186   16234.648 - 6.39e-186
+mtART+G4          -7962.223   16032.446 - 5.6e-187   16054.610 - 9.77e-187   16236.439 - 2.61e-186
+mtInv+I+G4        -7959.974   16029.948 - 1.95e-186   16053.019 - 2.17e-186   16237.719 - 1.38e-186
+mtART+I+G4        -7962.492   16034.985 - 1.57e-187   16058.056 - 1.74e-187   16242.756 - 1.11e-187
+mtREV+G4          -7998.945   16105.890 - 6.31e-203   16128.054 - 1.1e-202   16309.883 - 2.94e-202
+mtREV+I+G4        -7997.419   16104.838 - 1.07e-202   16127.909 - 1.18e-202   16312.609 - 7.52e-203
+mtVer+G4          -8081.922   16271.845 - 5.8e-239   16294.009 - 1.01e-238   16475.838 - 2.7e-238
+mtVer+I+G4        -8081.149   16272.298 - 4.62e-239   16295.369 - 5.13e-239   16480.069 - 3.26e-239
+mtMAM+G4          -8189.099   16486.198 - 1.65e-285   16508.362 - 2.88e-285   16690.191 - 7.68e-285
+mtMAM+I+G4        -8189.318   16488.635 - 4.88e-286   16511.706 - 5.41e-286   16696.406 - 3.44e-286
+HIVw+F+I+G4       -8150.599   16449.198 - 1.79e-277   16493.956 - 3.87e-282   16728.744 - 3.26e-293
+HIVw+F+G4         -8154.464   16454.929 - 1.02e-278   16498.319 - 4.36e-283   16730.698 - 1.23e-293
+HIVw+I+G4         -8270.363   16650.725 - 3.09e-321   16673.796 - 3.43e-321   16858.496 - 2.18e-321
+HIVw+G4           -8274.464   16656.927 - 1.38e-322   16679.091 - 2.42e-322   16860.920 - 6.47e-322
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.3127
+
+ Category  Relative_rate  Proportion
+  1         0.1949         0.2500
+  2         0.5541         0.2500
+  3         1.0372         0.2500
+  4         2.2138         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7526.1455 (s.e. 290.1129)
+Unconstrained log-likelihood (without tree): -1812.5610
+Number of free parameters (#branches + #model parameters): 54
+Akaike information criterion (AIC) score: 15160.2909
+Corrected Akaike information criterion (AICc) score: 15182.4551
+Bayesian information criterion (BIC) score: 15364.2842
+
+Total tree length (sum of branch lengths): 9.5357
+Sum of internal branch lengths: 4.1569 (43.5928% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Lanatina.XP_013417278.1_proteasome_subunit_alpha_t' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------------------------------Lanatina.XP_013417278.1_proteasome_subunit_alpha_t
+|
+|                                 +------------------Dmelanogaster.Prosalpha7_proteasome_alpha7_subunit
++---------------------------------| (100)
+|                                 |    +----------------Egranulosus.XP_024352159.1_Proteasome_subunit_alph
+|                                 +----| (88)
+|                                      |                      +--Avaga.UJR15799.1_hypothetical_protein_I4U23_002731
+|                                      |        +-------------| (100)
+|                                      |        |             +--Avaga.UJR30804.1_hypothetical_protein_I4U23_018322
+|                                      |     +--| (56)
+|                                      |     |  |  +-----------Cintestinalis.LOC100177476_proteasome_subunit_alph
+|                                      |     |  +--| (35)
+|                                      |     |     |  +------Aplanci.LOC110982874_proteasome_subunit_alpha_type
+|                                      |     |     +--| (62)
+|                                      |     |        +-----Hsapiens.NP_002779.1_proteasome_subunit_alpha_type
+|                                      |  +--| (56)
+|                                      |  |  +---Bbelcheri.LOC109471095_proteasome_subunit_alpha_ty
+|                                      +--| (55)
+|                                         |  +-----Lanatina.XP_013384393.1_proteasome_subunit_alpha_t
+|                                         +--| (61)
+|                                            +-----Myessoensis.XP_021370576.1_proteasome_subunit_alph
+|
+|                                             +-------Cintestinalis.LOC100176195_proteasome_subunit_alph
+|                                          +--| (53)
+|                                          |  +--Hsapiens.NP_002781.2_proteasome_subunit_alpha_type
+|                                       +--| (51)
+|                                       |  |  +---Aplanci.LOC110982065_proteasome_subunit_alpha_type
+|                                       |  +--| (86)
+|                                       |     |  +--Lanatina.XP_013415237.1_proteasome_subunit_alpha_t
+|                                       |     +--| (97)
+|                                       |        +--Myessoensis.XP_021360390.1_proteasome_subunit_alph
+|         +-----------------------------| (100)
+|         |                             +--Bbelcheri.LOC109486945_proteasome_subunit_alpha_ty
++---------| (95)
+          |                       +------Egranulosus.XP_024351634.1_Proteasome_subunit_alph
+          +-----------------------| (100)
+                                  |   +---------Dmelanogaster.Prosalpha4_proteasome_alpha4_subunit
+                                  +---| (97)
+                                      |                +--Avaga.UJR13309.1_hypothetical_protein_I4U23_000327
+                                      |        +-------| (100)
+                                      |        |       +--Avaga.UJR34060.1_hypothetical_protein_I4U23_021471
+                                      |     +--| (45)
+                                      |     |  +--Bbelcheri.LOC109473572_proteasome_subunit_alpha_ty
+                                      |  +--| (51)
+                                      |  |  |  +--Lanatina.XP_013389043.1_proteasome_subunit_alpha_t
+                                      |  |  +--| (85)
+                                      |  |     +--Myessoensis.XP_021354253.1_proteasome_subunit_alph
+                                      +--| (91)
+                                         |     +----Cintestinalis.LOC100176760_proteasome_subunit_alph
+                                         |  +--| (64)
+                                         |  |  |  +--Hsapiens.NP_002783.1_proteasome_subunit_alpha_type
+                                         |  |  +--| (94)
+                                         |  |     +---Hsapiens.NP_001020267.1_proteasome_subunit_alpha-t
+                                         +--| (86)
+                                            +--Aplanci.LOC110989014_proteasome_subunit_alpha_type
+
+Tree in newick format:
+
+(Lanatina.XP_013417278.1_proteasome_subunit_alpha_t:1.1471914867,(Dmelanogaster.Prosalpha7_proteasome_alpha7_subunit:0.5265444555,(Egranulosus.XP_024352159.1_Proteasome_subunit_alph:0.4647926455,((((Avaga.UJR15799.1_hypothetical_protein_I4U23_002731:0.0373567848,Avaga.UJR30804.1_hypothetical_protein_I4U23_018322:0.0391967659)100:0.3760383696,(Cintestinalis.LOC100177476_proteasome_subunit_alph:0.3410209565,(Aplanci.LOC110982874_proteasome_subunit_alpha_type:0.2118466908,Hsapiens.NP_002779.1_proteasome_subunit_alpha_type:0.1863585390)62:0.0380140557)35:0.0179889992)56:0.0224329444,Bbelcheri.LOC109471095_proteasome_subunit_alpha_ty:0.1099530270)56:0.0224848503,(Lanatina.XP_013384393.1_proteasome_subunit_alpha_t:0.1708970387,Myessoensis.XP_021370576.1_proteasome_subunit_alph:0.1690648945)61:0.0440686108)55:0.0739730377)88:0.1470986683)100:0.9275341691,((((Cintestinalis.LOC100176195_proteasome_subunit_alph:0.2173277277,Hsapiens.NP_002781.2_proteasome_subunit_alpha_type:0.1014545760)53:0.0216264662,(Aplanci.LOC110982065_proteasome_subunit_alpha_type:0.1310527303,(Lanatina.XP_013415237.1_proteasome_subunit_alpha_t:0.0966713124,Myessoensis.XP_021360390.1_proteasome_subunit_alph:0.0666696209)97:0.0306436555)86:0.0271087344)51:0.0388182522,Bbelcheri.LOC109486945_proteasome_subunit_alpha_ty:0.0732159361)100:0.8255747820,(Egranulosus.XP_024351634.1_Proteasome_subunit_alph:0.1896026456,(Dmelanogaster.Prosalpha4_proteasome_alpha4_subunit:0.2882981808,((((Avaga.UJR13309.1_hypothetical_protein_I4U23_000327:0.0207063946,Avaga.UJR34060.1_hypothetical_protein_I4U23_021471:0.0336557410)100:0.2284111878,Bbelcheri.LOC109473572_proteasome_subunit_alpha_ty:0.1020041717)45:0.0212116627,(Lanatina.XP_013389043.1_proteasome_subunit_alpha_t:0.0926069677,Myessoensis.XP_021354253.1_proteasome_subunit_alph:0.1005000067)85:0.0317896487)51:0.0206264979,((Cintestinalis.LOC100176760_proteasome_subunit_alph:0.1513485551,(Hsapiens.NP_002783.1_proteasome_subunit_alpha_type:0.0921158110,Hsapiens.NP_001020267.1_proteasome_subunit_alpha-t:0.1226434354)94:0.0487101710)64:0.0221536577,Aplanci.LOC110989014_proteasome_subunit_alpha_type:0.0947400719)86:0.0429055240)91:0.0666872036)97:0.1324113224)100:0.6603974153)95:0.2681787653);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7526.145536
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------Lanatina.XP_013417278.1_proteasome_subunit_alpha_t
+|
+|                                 +------------------Dmelanogaster.Prosalpha7_proteasome_alpha7_subunit
++---------------------------------| (100)
+|                                 |    +----------------Egranulosus.XP_024352159.1_Proteasome_subunit_alph
+|                                 +----| (88)
+|                                      |                      +--Avaga.UJR15799.1_hypothetical_protein_I4U23_002731
+|                                      |        +-------------| (100)
+|                                      |        |             +--Avaga.UJR30804.1_hypothetical_protein_I4U23_018322
+|                                      |     +--| (56)
+|                                      |     |  |  +-----------Cintestinalis.LOC100177476_proteasome_subunit_alph
+|                                      |     |  +--| (35)
+|                                      |     |     |  +------Aplanci.LOC110982874_proteasome_subunit_alpha_type
+|                                      |     |     +--| (62)
+|                                      |     |        +-----Hsapiens.NP_002779.1_proteasome_subunit_alpha_type
+|                                      |  +--| (56)
+|                                      |  |  +---Bbelcheri.LOC109471095_proteasome_subunit_alpha_ty
+|                                      +--| (55)
+|                                         |  +-----Lanatina.XP_013384393.1_proteasome_subunit_alpha_t
+|                                         +--| (61)
+|                                            +-----Myessoensis.XP_021370576.1_proteasome_subunit_alph
+|
+|                                             +-------Cintestinalis.LOC100176195_proteasome_subunit_alph
+|                                          +--| (53)
+|                                          |  +--Hsapiens.NP_002781.2_proteasome_subunit_alpha_type
+|                                       +--| (51)
+|                                       |  |  +---Aplanci.LOC110982065_proteasome_subunit_alpha_type
+|                                       |  +--| (86)
+|                                       |     |  +--Lanatina.XP_013415237.1_proteasome_subunit_alpha_t
+|                                       |     +--| (97)
+|                                       |        +--Myessoensis.XP_021360390.1_proteasome_subunit_alph
+|         +-----------------------------| (100)
+|         |                             +--Bbelcheri.LOC109486945_proteasome_subunit_alpha_ty
++---------| (95)
+          |                       +------Egranulosus.XP_024351634.1_Proteasome_subunit_alph
+          +-----------------------| (100)
+                                  |   +---------Dmelanogaster.Prosalpha4_proteasome_alpha4_subunit
+                                  +---| (97)
+                                      |                +--Avaga.UJR13309.1_hypothetical_protein_I4U23_000327
+                                      |        +-------| (100)
+                                      |        |       +--Avaga.UJR34060.1_hypothetical_protein_I4U23_021471
+                                      |     +--| (45)
+                                      |     |  +--Bbelcheri.LOC109473572_proteasome_subunit_alpha_ty
+                                      |  +--| (51)
+                                      |  |  |  +--Lanatina.XP_013389043.1_proteasome_subunit_alpha_t
+                                      |  |  +--| (85)
+                                      |  |     +--Myessoensis.XP_021354253.1_proteasome_subunit_alph
+                                      +--| (91)
+                                         |     +----Cintestinalis.LOC100176760_proteasome_subunit_alph
+                                         |  +--| (64)
+                                         |  |  |  +--Hsapiens.NP_002783.1_proteasome_subunit_alpha_type
+                                         |  |  +--| (94)
+                                         |  |     +---Hsapiens.NP_001020267.1_proteasome_subunit_alpha-t
+                                         +--| (86)
+                                            +--Aplanci.LOC110989014_proteasome_subunit_alpha_type
+
+
+Consensus tree in newick format: 
+
+(Lanatina.XP_013417278.1_proteasome_subunit_alpha_t:1.1462213879,(Dmelanogaster.Prosalpha7_proteasome_alpha7_subunit:0.5257500070,(Egranulosus.XP_024352159.1_Proteasome_subunit_alph:0.4641849506,((((Avaga.UJR15799.1_hypothetical_protein_I4U23_002731:0.0373234066,Avaga.UJR30804.1_hypothetical_protein_I4U23_018322:0.0391582779)100:0.3756184733,(Cintestinalis.LOC100177476_proteasome_subunit_alph:0.3406230857,(Aplanci.LOC110982874_proteasome_subunit_alpha_type:0.2116250068,Hsapiens.NP_002779.1_proteasome_subunit_alpha_type:0.1861549750)62:0.0379844518)35:0.0179672420)56:0.0224120377,Bbelcheri.LOC109471095_proteasome_subunit_alpha_ty:0.1098425453)56:0.0224772939,(Lanatina.XP_013384393.1_proteasome_subunit_alpha_t:0.1707226395,Myessoensis.XP_021370576.1_proteasome_subunit_alph:0.1688811846)61:0.0440365784)55:0.0740877726)88:0.1472840476)100:0.9267000379,((((Cintestinalis.LOC100176195_proteasome_subunit_alph:0.2171609854,Hsapiens.NP_002781.2_proteasome_subunit_alpha_type:0.1013740519)53:0.0216218438,(Aplanci.LOC110982065_proteasome_subunit_alpha_type:0.1309567259,(Lanatina.XP_013415237.1_proteasome_subunit_alpha_t:0.0966053257,Myessoensis.XP_021360390.1_proteasome_subunit_alph:0.0666174545)97:0.0306324218)86:0.0270925455)51:0.0388139268,Bbelcheri.LOC109486945_proteasome_subunit_alpha_ty:0.0731186292)100:0.8249912341,(Egranulosus.XP_024351634.1_Proteasome_subunit_alph:0.1894436411,(Dmelanogaster.Prosalpha4_proteasome_alpha4_subunit:0.2881146217,((((Avaga.UJR13309.1_hypothetical_protein_I4U23_000327:0.0206925264,Avaga.UJR34060.1_hypothetical_protein_I4U23_021471:0.0336449687)100:0.2282801871,Bbelcheri.LOC109473572_proteasome_subunit_alpha_ty:0.1019455268)45:0.0212120790,(Lanatina.XP_013389043.1_proteasome_subunit_alpha_t:0.0925496213,Myessoensis.XP_021354253.1_proteasome_subunit_alph:0.1004408777)85:0.0317793234)51:0.0206159963,((Cintestinalis.LOC100176760_proteasome_subunit_alph:0.1512542481,(Hsapiens.NP_002783.1_proteasome_subunit_alpha_type:0.0920622496,Hsapiens.NP_001020267.1_proteasome_subunit_alpha-t:0.1225699653)94:0.0486934191)64:0.0221456366,Aplanci.LOC110989014_proteasome_subunit_alpha_type:0.0946850473)86:0.0428850809)91:0.0666496142)97:0.1323462887)100:0.6598964228)95:0.2680924551);
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 21 23:23:24 2022
+Total CPU time used: 53.478054 seconds (0h:0m:53s)
+Total wall-clock time used: 27.12212992 seconds (0h:0m:27s)
+

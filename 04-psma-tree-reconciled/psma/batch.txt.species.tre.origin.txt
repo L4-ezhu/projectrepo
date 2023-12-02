@@ -1,0 +1,2 @@
+GT name	Cintestinalis	n37	Hsapiens	Chordata	Bbelcheri	Deuterostomia	Aplanci	Bilateria	Myessoensis	Lophotrochozoa	Lanatina	Spiralia	Avaga	n47	Egranulosus	Protostomia	Dmelanogaster
+psma.homologs.al.mid.treefile	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0

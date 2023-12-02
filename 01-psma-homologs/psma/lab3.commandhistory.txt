@@ -1,0 +1,1000 @@
+   55  less hox.homologs.al.fas
+   56  cd lab3
+   57  less hox.homologs.al.fas
+   58  ls
+   59  cd hox
+   60  ls
+   61  les hox.homologs.fas
+   62  less hox.homologs.fas
+   63  ls
+   64  cd ../
+   65  cd hox
+   66  ls
+   67  cd ../
+   68  ls
+   69  mkdir lab6-myusername
+   70  cd lab6-myusername/
+   71  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   ~/labs/lab3/hox/hox.homologs.fas
+   72  cd ../
+   73  mv lab3 lab3-myusername
+   74  cd lab6-myusername/hox
+   75  cd lab6-myusername/
+   76  ls
+   77  mkdir ~/labs/lab6-myusername/hox
+   78  cd hox
+   79  cd ~/labs/lab6-myusername/hox
+   80  sed 's/*//' ~/labs/lab3-myusername/hox/hox.homologs.fas
+   81  sed 's/*//' ~/labs/lab3-myusername/hox/hox.homologs.fas > ~/labs/lab6-myusername/hox/hox.homologs.fas
+   82  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas
+   83  ls
+   84  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas --appl pfam
+   85  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas --appl PFAM
+   86  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas --appl Pfam
+   87  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas --appl Pfam35.0
+   88  iprscan --help
+   89  iprscan5 --help
+   90  iprscan5 --appl --help
+   91  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas --appl "Pfam"
+   92  iprscan5   --email joshua.rest@stonybrook.edu  --multifasta --useSeqId --sequence   hox.homologs.fas --appl CDD
+   93  cd ~/data/
+   94  cd labs
+   95  cd ../
+   96  ls
+   97  pwd
+   98  cd labs
+   99  ls
+  100  cd lab4-myusername/
+  101  screen -dRR
+  102  iqtree -s ~/labs/lab3/hox.homologs.al.fas -m VT+F+R10
+  103    df -h
+  104      cd ~/labs
+  105  mkdir lab7-myusername
+  106      cd lab7-myusername
+  107  fastq-dump SRR9437431
+  108  less -S SRR9437431.fastq
+  109  fastq-dump SRR10034524
+  110  less -S SRR10034524.fastq
+  111  quast.py
+  112  wget ftp://ftp.ncbi.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/latest_assembly_versions/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_genomic.fna.gz && gunzip GCF_000001405.39_GRCh38.p13_genomic.fna.gz
+  113  ftp://ftp.ncbi.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/all_assembly_versions/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_genomic.fna.gz && gunzip GCF_000001405.39_GRCh38.p13_genomic.fna.gz
+  114  wget ftp://ftp.ncbi.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/all_assembly_versions/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_genomic.fna.gz && gunzip GCF_000001405.39_GRCh38.p13_genomic.fna.gz
+  115  less GCF_000001405.39_GRCh38.p13_genomic.fna
+  116  wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/209/225/GCF_000209225.1_ASM20922v1/GCF_000209225.1_ASM20922v1_genomic.fna.gz && gunzip GCF_000209225.1_ASM20922v1_genomic.fna.gz
+  117  less GCF_000209225.1_ASM20922v1_genomic.fna
+  118  quast.py --large  GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 2 -o quast_human
+  119  df -h
+  120  quast.py --large  GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 1 -o quast_human
+  121  quast.py --large  GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 1 --memory-efficient -o quast_human
+  122  quast.py
+  123  quast.py --large  GCF_000209225.1_ASM20922v1_genomic.fna    --min-contig 0 --threads 2 -o quast_nematostella
+  124  quast.py --large  GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 2 -o quast_human
+  125   conda install -c bioconda quast
+  126  cd tools
+  127  which quast.py
+  128  conda remove quast
+  129  conda remove quast.py
+  130  which quast.py
+  131  rm ~/miniconda3/bin/quast.py
+  132  quast.py
+  133  cd
+  134  pwd
+  135  wget -O ~/tools/quast-5.2.0.tar.gz https://downloads.sourceforge.net/project/quast/quast-5.2.0.tar.gz &&  tar -xzf ~/tools/quast-5.2.0.tar.gz -C ~/tools && sudo bash ~/tools/quast-5.2.0/install.sh
+  136  ~/tools/quast-5.2.0/quast.py --large  GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 2 -o quast_human
+  137  cd labs
+  138  cd lab7-myusername/
+  139  ~/tools/quast-5.2.0/quast.py --large  GCF_000001405.39_GRCh38.p13_genomic.fna    --min-contig 0 --threads 2 -o quast_human
+  140  l
+  141  ls
+  142  ~/tools/quast-5.2.0/quast.py --large  GCF_000209225.1_ASM20922v1_genomic.fna    --min-contig 0 --threads 2 -o quast_nematostella
+  143  ls
+  144  cd quast_human/
+  145  ls
+  146  less report.txt
+  147  cd ../
+  148  less quast_nematostella/report.txt
+  149  less quast_human/report.txt
+  150  cd ../
+  151  mkdir lab8-myusername
+  152  cd lab8-myusername/
+  153    fastq-dump SRR1297272  --gzip
+  154      fastq-dump SRR1297281 --gzip
+  155       less SRR1297281.fastq.gz
+  156      ~/tools/FastQC/fastqc SRR1297281.fastq.gz
+  157  wkhtmltopdf  --print-media-type SRR1297281_fastqc.html SRR1297281_fastqc.pdf
+  158  java -jar ~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -phred33 SRR1297272.fastq.gz SRR1297272.trimmed.fastq.gz  LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  159  java -jar ~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -phred33 SRR1297281.fastq.gz SRR1297281.trimmed.fastq.gz  LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  160  hisat2-build ~/labs/lab9-myusername/GCF_000209225.1_ASM20922v1_genomic.fna nemat_genome_index
+  161  hisat2-build ~/labs/lab7-myusername/GCF_000209225.1_ASM20922v1_genomic.fna nemat_genome_index
+  162  hisat2  -U SRR1297272.trimmed.fastq.gz -S SRR1297272.sam -x nemat_genome_index  -p 2
+  163  hisat2  -U SRR1297281.trimmed.fastq.gz -S SRR1297281.sam -x nemat_genome_index  -p 2
+  164  samtools sort SRR1297281.sam -O BAM > SRR1297281.bam 
+  165  samtools index SRR1297281.bam
+  166  samtools sort SRR1297272.sam -O BAM > SRR1297272.bam
+  167  samtools index SRR1297272.bam
+  168  wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/209/225/GCF_000209225.1_ASM20922v1/GCF_000209225.1_ASM20922v1_genomic.gff.gz && gunzip GCF_000209225.1_ASM20922v1_genomic.gff.gz
+  169  ASCIIGenome -fa ~/labs/lab7-myusername/GCF_000209225.1_ASM20922v1_genomic.fna GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297272.bam 
+  170  cuffdiff GCF_000209225.1_ASM20922v1_genomic.gff SRR1297281.bam SRR1297272.bam -L control,copper -p 2
+  171  mlr --inidx --ifs "\t" --opprint cat gene_exp.diff | tail -n +2 | less -S
+  172  grep -c yes gene_exp.diff
+  173  sort -k13 gene_exp.diff | mlr --inidx --ifs "\t" --opprint cat  | tail -n +2 | less -S
+  174  sort -k13 gene_exp.diff | mlr --inidx --ifs "\t" --opprint cat  | tail -n +2 | less -S  
+  175  grep LOC5514051 gene_exp.diff 
+  176  screen -dRR
+  177  sudo yum update
+  178  screen -dRR
+  179  cd labs
+  180  ls
+  181  mkdir lab2-L06-charlesdarwin
+  182  cd lab2-L06-charlesdarwin/
+  183  LS
+  184  cat 'Bio312 is cool' > secretFile.txt
+  185  cat "Bio312 is cool" > secretFile.txt
+  186  echo "Bio312 is cool" > secretFile.txt
+  187  ls
+  188  less secretFile.txt ls
+  189  ls
+  190  echo "SBU is cool" > > secretFile.txt
+  191  echo "North Pole is cold" > > secretFile.txt
+  192  echo "SBU is cool" >> secretFile.txt
+  193  echo "North Pole is cold" >> secretFile.txt
+  194  echo "Starbucks is cool" >> secretFile.txt
+  195  less secretFile.txt 
+  196  echo "It is a far, far better thing that I do, than I have ever done; it is a far, far better rest that I go to than I have ever known." >> secretFile.txt 
+  197  less secretFile.txt 
+  198  wc secretFile.txt 
+  199  wc -l secretFile.txt 
+  200  ls | wc -l
+  201  ls | wc 
+  202  ls | wc -l
+  203  ls
+  204  grep S secretFile.txt
+  205  less secretFile.txt 
+  206  grep B secretFile.txt
+  207  grep co secretFile.txt
+  208  grep S.+co secretFile.txt
+  209  grep S{1}.+co secretFile.txt
+  210  grep S.+co secretFile.txt
+  211  grep ^S.+co secretFile.txt
+  212  less secretFile.txt 
+  213  grep .+ secretFile.txt 
+  214  grep S secretFile.txt 
+  215  grep S+ secretFile.txt 
+  216  grep -E S+ secretFile.txt 
+  217  grep –E S.+co secretFile.txt
+  218  grep –E S.co secretFile.txt
+  219  grep [a-z] secretFile.txt
+  220  grep   "S.+co" secretFile.txt 
+  221  grep   "S.+" secretFile.txt 
+  222  cd ../
+  223  sudo yum update
+  224  mkdir ~/prc1
+  225  cd ~/prc1
+  226  git clone https://github.com/Bio312/lab3
+  227  cd lab3
+  228  gunzip proteomes/*.gz
+  229  cat  proteomes/* > allprotein.fas
+  230  makeblastdb -in allprotein.fas -dbtype prot
+  231  ncbi-acc-download -F fasta -m protein XP_032217712.2 
+  232  pwd
+  233  blastp -db allprotein.fas -query XXP_032217712.2.fa -outfmt 0 -max_hsps 1 -out prc1.blastp.typical.out
+  234  blastp -db allprotein.fas -query XP_032217712.2.fa -outfmt 0 -max_hsps 1 -out prc1.blastp.typical.out
+  235  blastp -db allprotein.fas -query XP_032217712.2.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out prc1.blastp.detail.out
+  236  awk '{if ($6<0.0000000000001)print $1 }' prc1.blastp.detail.out > prc1.blastp.detail.filtered.out
+  237  wc -l prc1.blastp.detail.filtered.out
+  238  less prc1.blastp.detail.filtered.out 
+  239  less prc1.blastp.detail.out
+  240  less -S prc1.blastp.detail.out
+  241  grep Nem prc1.blastp.detail.out  less -S
+  242  grep Nvectensis prc1.blastp.detail.out  less -S
+  243  grep Nvectensis prc1.blastp.detail.out | less -S
+  244  awk '{if ($6<0.000002)print $1 }' prc1.blastp.detail.out > prc1.blastp.detail.filtered.out
+  245  wc -l prc1.blastp.detail.filtered.out
+  246   seqkit grep --pattern-file prc1.blastp.detail.filtered.out allprotein.fas > prc1.homologs.fas
+  247  muscle -in prc1.homologs.fas -out prc1.homologs.al.fas
+  248   t_coffee -other_pg seq_reformat -in prc1.homologs.al.fas -output sim 
+  249   t_coffee -other_pg seq_reformat -in prc1.homologs.al.fas -output sim  |  less -S
+  250  less -S  prc1.homologs.al.fas
+  251  alv -kli --majority prx1.homologs.al.fas | less -RS
+  252  alv -kli --majority prc1.homologs.al.fas | less -RS
+  253  awk '{if ($6<0.00001)print $1 }' prc1.blastp.detail.out > prc1.blastp.detail.filtered.out
+  254  wc -l prc1.blastp.detail.filtered.out
+  255  awk '{if ($6<0.0000001)print $1 }' prc1.blastp.detail.out > prc1.blastp.detail.filtered.out
+  256  wc -l prc1.blastp.detail.filtered.out
+  257  awk '{if ($6<0.000002)print $1 }' prc1.blastp.detail.out > prc1.blastp.detail.filtered.out
+  258  wc -l prc1.blastp.detail.filtered.out
+  259   seqkit grep --pattern-file prc1.blastp.detail.filtered.out allprotein.fas > prc1.homologs.fas
+  260  muscle -in prc1.homologs.fas -out prc1.homologs.al.fas
+  261   t_coffee -other_pg seq_reformat -in prc1.homologs.al.fas -output sim  |  less -S
+  262  ~/tools/mafft-linux64/mafft.bat --localpair --maxiterate 100  prc1.homologs.fas   > prc1.homologs.mafftal.fas 
+  263   t_coffee -other_pg seq_reformat -in prc1.homologs.mafftal.fas -output sim  |  less -S
+  264  alv -kli --majority prc1.homologs.mafftal.fas | less -RS
+  265  cd ../
+  266  ls
+  267  cd ../
+  268  mkdir ~/opsin
+  269  cd ~/opsin
+  270  git clone https://github.com/Bio312/lab3
+  271  cd lab3
+  272  gunzip proteomes/*.gz
+  273  cat  proteomes/* > allprotein.fas
+  274  makeblastdb -in allprotein.fas -dbtype prot
+  275  ncbi-acc-download -F fasta -m protein XP_021357501.1
+  276  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt 0 -max_hsps 1 -out opsin.blastp.typical.out
+  277  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out opsin.blastp.detail.out
+  278  grep Myessoensis opsin.blastp.detail.out | less -S
+  279  cd ../
+  280  rm -rf lab3
+  281  git clone https://github.com/Bio312/lab3
+  282  cd lab3
+  283  gunzip proteomes/*.gz
+  284  cat  proteomes/* > allprotein.fas
+  285  makeblastdb -in allprotein.fas -dbtype prot
+  286  ncbi-acc-download -F fasta -m protein XP_021357501.1
+  287  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt 0 -max_hsps 1 -out opsin.blastp.typical.out
+  288  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out opsin.blastp.detail.out
+  289  grep Myessoensis opsin.blastp.detail.out | less -S
+  290  less -S Myessoensis opsin.blastp.detail.out 
+  291  less -S  opsin.blastp.detail.out 
+  292  awk '{if ($6< 1e-065 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  293  wc -l opsin.blastp.detail.filtered.out
+  294  awk '{if ($6< 1e-060 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  295  wc -l opsin.blastp.detail.filtered.out
+  296  awk '{if ($6< 1e-050 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  297  wc -l opsin.blastp.detail.filtered.out
+  298  awk '{if ($6< 1e-040 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  299  wc -l opsin.blastp.detail.filtered.out
+  300  less -l opsin.blastp.detail.filtered.out
+  301  less -S opsin.blastp.detail.filtered.out
+  302  grep Myessoensis opsin.blastp.detail.filtered.out | less -S
+  303  grep Aplanci opsin.blastp.detail.filtered.out | less -S
+  304  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  305  awk '{if ($6< 1e-030 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  306  wc -l opsin.blastp.detail.filtered.out
+  307  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  308  awk '{if ($6< 1e-035 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  309  wc -l opsin.blastp.detail.filtered.out
+  310  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  311  awk '{if ($6< 1e-036 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  312  wc -l opsin.blastp.detail.filtered.out
+  313  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  314  awk '{if ($6< 1e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  315  wc -l opsin.blastp.detail.filtered.out
+  316  grep Myessoensis opsin.blastp.detail.filtered.out | less -S
+  317  awk '{if ($6< 1e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  318  wc -l opsin.blastp.detail.filtered.out
+  319  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  320  grep Hsapiens opsin.blastp.detail.filtered.out | less -S
+  321  grep Bbelcheri opsin.blastp.detail.filtered.out | less -S
+  322  grep Celegans opsin.blastp.detail.filtered.out | less -S
+  323  grep Dmelanogaster opsin.blastp.detail.filtered.out | less -S
+  324  grep Lsatsuma opsin.blastp.detail.filtered.out | less -S
+  325  grep Celegans opsin.blastp.detail.filtered.out | less -S
+  326  grep Myessoensis opsin.blastp.detail.filtered.out | less -S
+  327  grep Aplanci opsin.blastp.detail.filtered.out | less -S
+  328  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  329  grep Hsapiens opsin.blastp.detail.filtered.out | less -S
+  330  grep Bbelcheri opsin.blastp.detail.filtered.out | less -S
+  331  grep Dmelanogaster opsin.blastp.detail.filtered.out | less -S
+  332  grep Lsatsuma opsin.blastp.detail.filtered.out | less -S
+  333  grep Celegans opsin.blastp.detail.out | less -S
+  334  awk '{if ($6< 2e-025 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  335  wc -l opsin.blastp.detail.filtered.out
+  336  grep Celegans opsin.blastp.detail.filtered.out | less -S
+  337  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  338  wc -l opsin.blastp.detail.filtered.out
+  339  grep Lsatsuma opsin.blastp.detail.out | less -S
+  340  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  341   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  342  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  343   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim  |  less -S
+  344  ~/tools/mafft-linux64/mafft.bat --localpair --maxiterate 100  opsin.homologs.fas   > opsin.homologs.mafftal.fas 
+  345   t_coffee -other_pg seq_reformat -in opsin.homologs.mafftal.fas -output sim  |  less -S
+  346  alv -kli --majority opsin.homologs.al.fas | less -RS
+  347  iqtree -s opsin.homologs.al.fas
+  348  iqtree -s opsin.homologs.al.fas  -m VT+F+R10
+  349  less -S opsin.blastp.detail.out
+  350  grep Lsatsuma opsin.blastp.detail.out
+  351  grep Lsatsuma opsin.blastp.detail.out   |  less -S
+  352  pwd
+  353  cd ../
+  354  rm -rf lab3
+  355  git clone https://github.com/Bio312/lab3
+  356  cd lab3
+  357  gunzip proteomes/.gz
+  358  cat proteomes/ > allprotein.fas
+  359  gunzip proteomes/*.gz
+  360  cat  proteomes/* > allprotein.fas
+  361  makeblastdb -in allprotein.fas -dbtype prot
+  362  ncbi-acc-download -F fasta -m protein XP_021357501.1
+  363  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out opsin.blastp.detail.out
+  364  grep
+  365  grep Myessoensis opsin.blastp.detail.out | less -S
+  366  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  367  wc -l opsin.blastp.detail.filtered.out
+  368  grep Hsapiens opsin.blastp.detail.filtered.out | less -S
+  369  grep Bbelcheri opsin.blastp.detail.filtered.out | less -S
+  370  grep Myessoensis opsin.blastp.detail.filtered.out | less -S
+  371  grep Aplanci opsin.blastp.detail.filtered.out | less -S
+  372  grep Cintestinalis opsin.blastp.detail.filtered.out | less -S
+  373  grep Dmelanogaster opsin.blastp.detail.filtered.out | less -S
+  374  grep Smansoni opsin.blastp.detail.filtered.out | less -S
+  375  grep Skowalevskii  opsin.blastp.detail.filtered.out | less -S
+  376  grep Rsocialis opsin.blastp.detail.filtered.out | less -S
+  377   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  378  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  379  wc -l opsin.blastp.detail.filtered.out
+  380   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  381  grep ">" opsin.homologs.fas
+  382  grep ">" opsin.homologs.fas | wc -l
+  383  grep ">" opsin.homologs.fas | less
+  384  ls
+  385  less opsin.blastp.detail.filtered.out
+  386  less allprotein.fas
+  387  grep Rsocialis.CAF3759921.1_unnamed_protein_product allprotein.fas
+  388  cd proteomes
+  389  ls
+  390  cd ../
+  391  rm allprotein.fas
+  392  ls proteomes/
+  393  cat  proteomes/* > allprotein.fas
+  394  seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  395  grep ">" opsin.homologs.fas | wc -l
+  396  cd proteomes/
+  397  ls
+  398  grep Rsocialis.CAF3759921.1_unnamed_protein_product GCA_905331475.1_Rs_AK16_reference_genomic_v1_genomic.longest.renamed.faa 
+  399  less GCA_905331475.1_Rs_AK16_reference_genomic_v1_genomic.longest.renamed.faa 
+  400  grep Rsocialis opsin.blastp.detail.filtered.out | less -S
+  401  cd ../
+  402  grep Rsocialis opsin.blastp.detail.filtered.out | less -S
+  403  cd ../
+  404  rm -rf lab3
+  405      git clone https://github.com/Bio312/lab3
+  406  cd lab3
+  407  gunzip proteomes/*.gz
+  408  cat  proteomes/* > allprotein.fas
+  409  makeblastdb -in allprotein.fas -dbtype prot
+  410  ncbi-acc-download -F fasta -m protein XP_021357501.1
+  411  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore 
+  412  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out opsin.blastp.detail.out
+  413  grep Avaga opsin.blastp.detail.filtered.out | less -S
+  414  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  415  wc -l opsin.blastp.detail.filtered.out
+  416  grep Avaga opsin.blastp.detail.filtered.out | less -S
+  417   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  418  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  419  grep Hsapiens opsin.blastp.detail.filtered.out | wc -l  
+  420  grep Bbelcheri opsin.blastp.detail.filtered.out | wc -l  
+  421  grep Myessoensis opsin.blastp.detail.filtered.out | wc -l  
+  422  grep Aplanci opsin.blastp.detail.filtered.out | wc -l  
+  423  grep Cintestinalis opsin.blastp.detail.filtered.out | wc -l  
+  424  grep Dmelanogaster opsin.blastp.detail.filtered.out | wc -l  
+  425  grep Smansoni opsin.blastp.detail.filtered.out | wc -l  
+  426  grep Skowalevskii  opsin.blastp.detail.filtered.out | wc -l  
+  427  grep Avaga opsin.blastp.detail.filtered.out | wc -l  
+  428  grep Hsapiens opsin.homologs.fas  wc -l
+  429  grep Hsapiens opsin.homologs.fas |  wc -l
+  430  grep Hsapiens  opsin.homologs.fas |  wc -l
+  431  grep Bbelcheri  opsin.homologs.fas |  wc -l
+  432  grep Myessoensis  opsin.homologs.fas |  wc -l
+  433  grep Aplanci  opsin.homologs.fas |  wc -l
+  434  grep Cintestinalis  opsin.homologs.fas |  wc -l
+  435  grep Dmelanogaster  opsin.homologs.fas |  wc -l
+  436  grep Smansoni  opsin.homologs.fas |  wc -l
+  437  grep Skowalevskii   opsin.homologs.fas |  wc -l
+  438  grep Avaga  opsin.homologs.fas |  wc -l
+  439  cd ../
+  440  rm -rf lab3
+  441     git clone https://github.com/Bio312/lab3
+  442  cd lab3
+  443  gunzip proteomes/*.gz
+  444  cat  proteomes/* > allprotein.fas
+  445  makeblastdb -in allprotein.fas -dbtype prot
+  446  ncbi-acc-download -F fasta -m protein XP_021357501.1
+  447  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt 0 -max_hsps 1 -out opsin.blastp.typical.out
+  448  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out opsin.blastp.detail.out
+  449  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  450  wc -l opsin.blastp.detail.filtered.out
+  451  grep Hsapiens  opsin.homologs.fas |  wc -l
+  452  grep Bbelcheri  opsin.homologs.fas |  wc -l
+  453  grep Myessoensis  opsin.homologs.fas |  wc -l
+  454  grep Aplanci  opsin.homologs.fas |  wc -l
+  455  grep Cintestinalis  opsin.homologs.fas |  wc -l
+  456  grep Dmelanogaster  opsin.homologs.fas |  wc -l
+  457  grep Skowalevskii   opsin.homologs.fas |  wc -l
+  458  grep Avaga  opsin.homologs.fas |  wc -l
+  459  grep Egranulosus  opsin.homologs.fas |  wc -l
+  460   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  461  grep Hsapiens  opsin.homologs.fas |  wc -l
+  462  grep Bbelcheri  opsin.homologs.fas |  wc -l
+  463  grep Myessoensis  opsin.homologs.fas |  wc -l
+  464  grep Aplanci  opsin.homologs.fas |  wc -l
+  465  grep Cintestinalis  opsin.homologs.fas |  wc -l
+  466  grep Dmelanogaster  opsin.homologs.fas |  wc -l
+  467  grep Skowalevskii   opsin.homologs.fas |  wc -l
+  468  grep Avaga  opsin.homologs.fas |  wc -l
+  469  grep Egranulosus  opsin.homologs.fas |  wc -lmuscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  470  grep Egranulosus  opsin.homologs.fas |  wc -l
+  471  grep Egranulosus  opsin.blastp.detail.out |  wc -l
+  472  grep Egranulosus  opsin.blastp.detail.out 
+  473  awk '{if ($6< 1e-030 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  474  wc -l opsin.blastp.detail.filtered.out
+  475  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  476  cd ../
+  477  rm -rf lab3
+  478      git clone https://github.com/Bio312/lab3
+  479  cd lab3
+  480  gunzip proteomes/*.gz
+  481  cat  proteomes/* > allprotein.fas
+  482  makeblastdb -in allprotein.fas -dbtype prot
+  483  ncbi-acc-download -F fasta -m protein XP_021357501.1
+  484  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt 0 -max_hsps 1 -out opsin.blastp.typical.out
+  485  blastp -db allprotein.fas -query XP_021357501.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out opsin.blastp.detail.out
+  486  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  487   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  488  wc -l  opsin.homologs.fas
+  489  grep Hsapiens  opsin.homologs.fas |  wc -l
+  490  grep Bbelcheri  opsin.homologs.fas |  wc -l
+  491  grep Myessoensis  opsin.homologs.fas |  wc -l
+  492  grep Aplanci  opsin.homologs.fas |  wc -l
+  493  grep Cintestinalis  opsin.homologs.fas |  wc -l
+  494  grep Dmelanogaster  opsin.homologs.fas |  wc -l
+  495  grep Skowalevskii   opsin.homologs.fas |  wc -l
+  496  grep Avaga  opsin.homologs.fas |  wc -l
+  497  grep Egranulosus  opsin.homologs.fas |  wc -l
+  498  grep Lanatina  opsin.homologs.fas |  wc -l
+  499  wc -l opsin.homologs.fas
+  500  less opsin.homologs.fas 
+  501  grep -l opsin.blastp.detail.filtered.out
+  502  wc -l opsin.blastp.detail.filtered.out
+  503  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  504   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim  |  less -S
+  505   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim 
+  506  awk '{if ($6< 2e-40 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  507  wc -l opsin.blastp.detail.filtered.out
+  508   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  509  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  510   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim 
+  511  awk '{if ($6< 1e-40 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  512  wc -l opsin.blastp.detail.filtered.out
+  513   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  514  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  515   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim 
+  516  wc -l opsin.blastp.detail.filtered.out
+  517  awk '{if ($6< 2e-037 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  518  wc -l opsin.blastp.detail.filtered.out
+  519  grep Myessoensis opsin.blastp.detail.out 
+  520  rep Myessoensis opsin.blastp.detail.filtered.out
+  521  grep Myessoensis opsin.blastp.detail.filtered.out
+  522  grep -o "^[A-Z][a-z]" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  523  grep -o "^[A-Z][a-z][a-z]" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  524  grep -o "^[A-Z][a-z]{3}" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  525  grep -o "^[A-Z][a-z]{0,3}" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  526  grep -o "^[A-Z][a-z]{0,3}$" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  527  grep -o "^[A-Z][a-z]{0,3}+" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  528  grep -o "^[A-Z][a-z]+" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  529  grep -o "^[A-Z][a-z+]" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  530  grep -o "^[A-Z][a-z]+" opsin.blastp.detail.filtered.out  | sort | uniq -c
+  531  grep -o "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c
+  532  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c
+  533  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c | wc -l 
+  534  wc -l opsin.blastp.detail.filtered.out
+  535  awk '{if ($6< 1e-40 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  536  wc -l opsin.blastp.detail.filtered.out
+  537  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c
+  538  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c | wc -l 
+  539  awk '{if ($6< 1e-38 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  540  wc -l opsin.blastp.detail.filtered.out
+  541  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c
+  542  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c | wc -l 
+  543  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  544   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim 
+  545  awk '{if ($6< 1e-38 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  546  wc -l opsin.blastp.detail.filtered.out
+  547  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c
+  548  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c | wc -l 
+  549   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  550  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  551   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim 
+  552  awk '{if ($6< 1e-39 )print $1 }' opsin.blastp.detail.out > opsin.blastp.detail.filtered.out
+  553  wc -l opsin.blastp.detail.filtered.out
+  554  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c
+  555  grep -o -E "^[A-Z][a-z]+\." opsin.blastp.detail.filtered.out  | sort | uniq -c | wc -l 
+  556   seqkit grep --pattern-file opsin.blastp.detail.filtered.out allprotein.fas > opsin.homologs.fas
+  557  muscle -in opsin.homologs.fas -out opsin.homologs.al.fas
+  558   t_coffee -other_pg seq_reformat -in opsin.homologs.al.fas -output sim 
+  559  ls
+  560  rm answers*
+  561  ls
+  562  rm hox*
+  563  rm -rf prc1
+  564  ls
+  565  cd R
+  566  ls
+  567  cd x86_64-pc-linux-gnu-library/
+  568  ls
+  569  cd 4.0/
+  570  ls
+  571  cd
+  572  R --vanilla
+  573  ls
+  574  cd miniconda3/
+  575  ls
+  576  cd
+  577  ls
+  578  cd anaconda_ete/
+  579  ls
+  580  cd envs
+  581  ls
+  582  cd ../
+  583  ls
+  584  cd lib
+  585  ls
+  586  cd
+  587  ls
+  588  rm -rf quast_test_output/
+  589  sudo rm -rf quast_test_output/
+  590  ls
+  591  cd miniconda3/
+  592  ls
+  593  cd envs/
+  594  ls
+  595  cd
+  596  $CONDA_DEFAULT_ENV
+  597  echo $CONDA_DEFAULT_ENV
+  598  echo $CONDA_PREFIX
+  599  ls
+  600  cd
+  601  rm -rf anaconda_ete/
+  602  ls
+  603  rm -rf opsin
+  604  ls
+  605  cd data
+  606  ls
+  607  cd sra
+  608  ls
+  609  cd sra
+  610  ls
+  611  rm *
+  612  ls
+  613  cd ../
+  614  ls
+  615  cd ../
+  616  ls
+  617  less animal.txt
+  618  less Pfam.aux
+  619  cd ../
+  620  ls
+  621  cd labs
+  622  ls
+  623  rm -rf
+  624  cd
+  625  ls
+  626  cd tools
+  627  ls
+  628  cd ../
+  629  ls
+  630  cd data
+  631  ls
+  632  cd ../
+  633  ls
+  634      echo 'Hello World'
+  635      cowsay 'Bio 312 is super fun!'
+  636      pwd
+  637  ls
+  638      cd data
+  639       cat animal.txt
+  640      cd ~/labs
+  641  mkdir lab2-myusername
+  642      ncbi-acc-download -F genbank NW_018406858.1
+  643      ncbi-acc-download -F fasta NW_018406858.1
+  644      ncbi-acc-download -F gff3 NW_018406858.1
+  645      filterGFF LOC110453019 NNW_018406858.1.gff
+  646      filterGFF LOC110453019 NW_018406858.1.gff
+  647      gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  648      gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  649  less LOC110453019.sorted.counts.gff 
+  650      gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  651      gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  652      grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  653      bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  654      less LOC110453019.X1.cds.fa
+  655      union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  656      transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  657  cd
+  658  ls
+  659  cd tools
+  660  cd ../
+  661  ls
+  662  cd data
+  663  ls
+  664  less animal.txt
+  665  cowsay hi
+  666  cowsay -h
+  667  cowsay -T howdy
+  668  cowsay -e howdy
+  669  cowsay -e j howdy
+  670  cowsay -e j T p howdy
+  671  cowsay -e j -T p howdy
+  672  cd ../
+  673  ls
+  674  cd labs
+  675  ls
+  676  cd lab4-myusername/
+  677  ls
+  678  cd ../
+  679  ls
+  680  mkdir lab2-practice
+  681  cd lab2-practice
+  682  ls
+  683  cd ../
+  684  cd lab2-myusername/
+  685  ls
+  686  cd ../
+  687  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  688  less 
+  689  less LOC110453019.sorted.counts.gff
+  690  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  691  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  692  less NW_018406858.1.counts.txt
+  693  locate get_species_taxids.sh
+  694  /usr/bin/get_species_taxids.sh
+  695   sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+  696  export PATH=${PATH}:${HOME}/edirect
+  697  pwd
+  698  ls
+  699  cd ../
+  700  ls
+  701  cd labs
+  702  ls
+  703  rm -rf *
+  704  ls
+  705  cd ../
+  706  ls
+  707  rm -rf edirect
+  708  ls
+  709  cd data
+  710  ls
+  711  cd sra
+  712  ls
+  713  cd sra
+  714  ls
+  715  cd ../
+  716  pwd
+  717  ls
+  718  rm -rf sra
+  719  ls
+  720  cd ../
+  721  ls
+  722  less animal.txt
+  723  ls 
+  724  cd ../
+  725  ls
+  726  screen -dRR
+  727  ls
+  728  screen -dRR
+  729  cd ~/labs
+  730  git clone https://github.com/Bio312/lab2-L4-ezhu
+  731  cd ~/labs
+  732  git clone https://github.com/Bio312/lab2-L4-ezhu
+  733  ls
+  734  echo 'Hello World'
+  735  cowsay 'Bio 312 is super fun!'
+  736  cd
+  737  pwd
+  738  ls
+  739  cd data
+  740  ls
+  741  cat animal.txt
+  742  cd
+  743  ls -l
+  744  cowsay
+  745  cowsay -d
+  746  cowsay 'Bio'
+  747  cowsay 
+  748  cowsay ''
+  749  cowsay '-d'
+  750  cowsay 'bio'
+  751  cowsay 'hi' -d
+  752  cowsay 'hello'
+  753  -d cowsay 'hello'
+  754  -l cowsay 'hello'
+  755  -F cowsay 'hello'
+  756  cowsay ls-l
+  757  cowsay -hello
+  758  cowsay - 'hello'
+  759  cd ~/labs/lab2-myusername
+  760  cd ~/labs/lab2-L4-ezhu
+  761  ls
+  762  cowsay -d 'hi'
+  763  cd ~/labs/lab2-L4-ezhu
+  764  ls
+  765  ncbi-acc-download -h
+  766  ncbi-acc-download -F genbank NW_018406858.1
+  767  ncbi-acc-download
+  768  ncbi-acc-download -h genbank NW_018406858.1
+  769  cd ~/labs/lab2-L4-ezhu
+  770  ls
+  771  ncbi-acc-download -F genbank NW_018406858.1
+  772  ls
+  773  ncbi-acc-download -F genbank NW_018406858.1
+  774  ls
+  775  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  776  git add .
+  777  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  778  git pull --no-edit
+  779  gitpush
+  780  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  781  git add .
+  782  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  783  git add 
+  784  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  785  git add .
+  786  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  787  git pull --no-edit
+  788  ncbi-acc-download -h
+  789  ncbi-acc-download -F genbank NW_018406858.1
+  790  ls
+  791  less NW_018406858.1.gbk
+  792  >name of sequence
+  793  ACTGACTGACTGACTGACTG
+  794  >name of sequence ACTGACTGACTGACTGACTG
+  795  ncbi-acc-download -F fasta NW_018406858.1
+  796  ncbi-acc-download -F gff3 NW_018406858.1
+  797   filterGFF LOC110453019 NW_018406858.1.gff
+  798  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  799  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  800  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff 
+  801  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gf
+  802  ncbi-acc-download -F gff3 NW_018406858.1
+  803  ncbi-acc-download -F gff3 NW_018406858.1 
+  804  filterGFF LOC110453019 NW_018406858.1.gff
+  805  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  806  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  807  gt stat -genelengthdistri
+  808  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff 
+  809  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  810  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  811  grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  812  bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  813  less LOC110453019.X1.cds.fa
+  814  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  815  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  816  less
+  817  ls
+  818  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa 
+  819  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  820  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  821  less
+  822  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  823  less LOC110453019.X1.cds.fa
+  824  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  825  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  826  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  827  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  828  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  829  ncbi-acc-download -h
+  830  ncbi-acc-download -F genbank NW_018406858.1
+  831  ls
+  832  ncbi-acc-download -F genbank NW_018406858.1
+  833   ls
+  834  ncbi-acc-download -F NW_018406858.1
+  835  pip install ncbi-acc-download
+  836   ncbi-acc-download -F
+  837   ncbi-acc-download -F genbank NW_081406858.1
+  838  NW_018406858.1
+  839  ncbi-acc-download -F genbank NW_018406858.1 
+  840  ncbi-acc-download -F genbank NW_018406858.1
+  841  ls
+  842  ncbi-accdownload -F https://www.ncbi.nlm.nih.gov/nuccore/NW_018406858.1
+  843  ncbi-acc-download --format fasta NW_018406858.1
+  844  ls
+  845  lessNW_018406858.1
+  846  less NW_018406858.1
+  847  less NW_018406858.1.gbk
+  848  >name of sequence
+  849  >name of sequence ACTGACTGACTGACTGACTG
+  850  >name of sequence
+  851  ACTGACTGACTGACTGACTG
+  852  >name of sequence
+  853  ACTGACTGACTGACTGACTG
+  854  >name of sequence
+  855  ACTGACTGACTGACTGACTG
+  856  name of sequence ACTGACTAGACTGACTGACTG
+  857  ncbi-acc-download -F fasta NW_018406858.1
+  858  ncbi-acc-download -F gff3 NW_018406858.1
+  859  filterGFF LOC110453019 NW_018406858.1.gff
+  860  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  861  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  862  gt stat -genelengthdistri -exonlengthdistri 
+  863  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  864  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  865  less gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff
+  866  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  867  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  868  grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  869  bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  870  less LOC110453019.X1.cds.fa
+  871  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  872  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  873  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  874  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa 
+  875  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  876  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  877  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  878  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  879  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  880  ncbi-acc-download -F gff3 NW_018406858.1
+  881  ls
+  882  filterGFF LOC110453019 NW_018406858.1.gff
+  883  gt gff3 -sort  -tidy -force -o LOC110453019.sorted.gff LOC110453019.X1.gff
+  884  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  885  less gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force  -o LOC110453019.sorted.counts.gff LOC110453019.sorted.gff
+  886  gt gff3 -sort -tidy -o NW_018406858.1.sorted.gff NW_018406858.1.gff
+  887  gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  888  less gt stat -genelengthdistri -exonlengthdistri -intronlengthdistri -cdslengthdistri -addintrons -force -o NW_018406858.1.counts.txt NW_018406858.1.sorted.gff
+  889  grep CDS LOC110453019.X1.gff > LOC110453019.X1.cds.gff
+  890  bedtools getfasta -s -fi NW_018406858.1.fa -fo LOC110453019.X1.cds.fa -bed LOC110453019.X1.cds.gff
+  891  less LOC110453019.X1.cds.fa
+  892  union LOC110453019.X1.cds.fa -outseq LOC110453019.X1.cds.union.fa
+  893  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  894  less transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  895  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  896  lesstranseq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  897  transeq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  898  lesstranseq LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  899  less 
+  900  less LOC110453019.X1.cds.union.fa -outseq LOC110453019.X1.aa.fa
+  901  less LOC110453019.X1.cds.union.fa 
+  902  less LOC110453019.X1.aa.fa
+  903  ls
+  904  less LOC110453019.X1.cds.fa
+  905  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  906  git add .
+  907  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  908  git add .
+  909  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  910  git add .
+  911  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  912  lab2.commandhistory.txt
+  913  history > lab2.commandhistory.txt
+  914  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  915  git add .
+  916  history > lab2.commandhistory.txt
+  917  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  918  git add .
+  919  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  920  git add .
+  921  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  922  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  923  chmod 400 /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  924  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  925  TOKEN: 
+  926  /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  927  chmod /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  928  chmod 400 /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  929  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  930  /Users/emilyzhu/Desktop/emilyzhuKEY.pem 
+  931  ssh -i "emilyzhuKEY.pem" ec2-user@ec2-34-238-90-61.compute-1.amazonaws.com
+  932  history > lab2.commandhistory.txt
+  933  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  934  git add .
+  935  ls
+  936  echo 'Hello World'
+  937  cowsay 'Bio 312 is super fun!'
+  938  cd
+  939  pwd
+  940  ls
+  941  cd data
+  942  ls
+  943  cat animal.txt
+  944  cd
+  945  ls -l
+  946  cd ~/labs/lab2-L4-ezhu
+  947  ncbi-acc-download -h
+  948  ncbi-acc-download -F genbank NW_018406858.1
+  949  ls
+  950  history > lab2.commandhistory.tx
+  951  history > lab2.commandhistory.txt
+  952  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  953  git add .
+  954  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  955  git pull --no-edit
+  956  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  957  git add .
+  958  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  959  git push
+  960  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  961  git add .
+  962  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  963  git add .
+  964  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  965  L4-ezhu
+  966  git pull --no-edit
+  967  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  968  git add .
+  969  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  970  git pull --no-edit
+  971  find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  972  git add .
+  973  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  974  git pull --no-edit
+  975  ls
+  976  $find . -size +5M | sed 's|^\./||g' | cat >> .gitignore; awk '!NF || !seen[$0]++' .gitignore
+  977  git add .
+  978  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+  979  git pull --no-edit
+  980  git push
+  981  ls
+  982  git push
+  983  git pull
+  984  ls
+  985  git push
+  986  history > lab2.commandhistory.txt
+  987  gitpush
+  988  git push 
+  989  git pull
+  990  git config pull.rebase false  # merge
+  991  git push
+  992  git push --help
+  993  git push --all
+  994  git pull --all
+  995  gir push
+  996  git push
+  997  ls
+  998  git push
+  999  ls
+ 1000  cd ~/labs
+ 1001  git clone https://github.com/Bio312/lab3-L4-ezhu
+ 1002  cd lab3-ezhu
+ 1003  cd ~/labs
+ 1004  git clone https://github.com/Bio312/labX-L4-ezhu
+ 1005  ccd ~/labs
+ 1006  cd ~/labs
+ 1007  git clone https://github.com/Bio312/lab3-L4-ezhu
+ 1008  cd lab3-L4-ezhu
+ 1009  cd ~/labs/lab3-L4-ezhu
+ 1010  gunzip proteomes/*.gz
+ 1011  cat  proteomes/* > allprotein.fas
+ 1012  makeblastdb -in allprotein.fas -dbtype prot
+ 1013  mkdir /home/ec2-user/labs/lab3-L4-ezhu/gqr
+ 1014  cd /home/ec2-user/labs/lab3-L4-ezhu/gqr
+ 1015  pwd
+ 1016  ncbi-acc-download -F fasta -m protein XP_021370576.1
+ 1017  ncbi-acc-download -F fasta -m protein XP_021373098.1
+ 1018  blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+ 1019  less blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+ 1020  less -s blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+ 1021  less -s
+ 1022  less -S blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt 0 -max_hsps 1 -out gqr.blastp.typical.out
+ 1023  ls
+ 1024  less -S gqr.blastp.detail.out
+ 1025  ls
+ 1026  ls gqr.blastp.typical.out
+ 1027  less gqr.blastp.typical.out
+ 1028  blastp -db ../allprotein.fas -query XP_021373098.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out gqr.blastp.detail.out
+ 1029  ls
+ 1030  less -S gqr.blastp.detail.out
+ 1031  grep -c Hsapiens gqr.blastp.detail.out
+ 1032  awk '{if ($6< 1e-35 )print $1 }' gqr.blastp.detail.out > gqr.blastp.detail.filtered.out
+ 1033  ls
+ 1034  wc -l gqr.blastp.detail.filtered.out
+ 1035  grep -o -E "^[A-Z][a-z]+\." gqr.blastp.detail.filtered.out  | sort | uniq -c
+ 1036  ls
+ 1037  ncbi-acc-download -F fasta -m protein XP_021370576.1
+ 1038  mkdir /home/ec2-user/labs/lab3-L4-ezhu/psma
+ 1039  pwd
+ 1040  Cd /home/ec2-user/labs/lab3-L4-ezhu/psma
+ 1041  cd /home/ec2-user/labs/lab3-L4-ezhu/psma 
+ 1042  pwd
+ 1043  ncbi-acc-download -F fasta -m protein XP_021370576.1
+ 1044  blastp -db ../allprotein.fas -query XP_021370576.1.fa -outfmt 0 -max_hsps 1 -out psma.blastp.typical.out
+ 1045  less psma.blastp.typical.out
+ 1046  blastp -db ../allprotein.fas -query XP_021370576.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out psma.blastp.detail.out
+ 1047  less -S psma.blastp.detail.out
+ 1048  grep -c Hsapiens psma.blastp.detail.out
+ 1049  awk '{if ($6< 1e-35 )print $1 }' psma.blastp.detail.out > psma.blastp.detail.filtered.out
+ 1050  wc -l psma.blastp.detail.filtered.out
+ 1051  ls
+ 1052  grep -o -E "^[A-Z][a-z]+\." psma.blastp.detail.filtered.out  | sort | uniq -c
+ 1053  ls
+ 1054  history > lab3.commandhistory.txt
